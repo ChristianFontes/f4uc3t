@@ -1,9 +1,9 @@
 <?php
 
-$dbhost = "localhost";
-$dbuser = "test_faucet";
-$dbpass = "test_pass";
-$dbname = "test_faucet";
+$dbhost = "mysql.hostinger.es";
+$dbuser = "u112085043_user";
+$dbpass = "ajZ0uSm4Q4V";
+$dbname = "u112085043_bd";
 $display_errors = false;
 $disable_admin_panel = false;
 
