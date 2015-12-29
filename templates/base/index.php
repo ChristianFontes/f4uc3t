@@ -275,7 +275,6 @@ padding: 30px 0;
                 </div>
                 <br></br>
 
-
                 <div>
                     <?php echo $data["captcha"]; ?>
                     <div class="text-center">
@@ -313,7 +312,8 @@ padding: 30px 0;
     <script type="text/javascript" src="libs/advertisement.js"></script>
     <script type="text/javascript" src="libs/check.js"></script>
     <?php endif; ?>
-    <section>
+    <br></br>
+    <section class="btn btn-primary-outline" align="center">
         <p>
         What is Bitcoin?
 
