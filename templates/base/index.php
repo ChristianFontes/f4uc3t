@@ -312,9 +312,9 @@ padding: 30px 0;
     <script type="text/javascript" src="libs/advertisement.js"></script>
     <script type="text/javascript" src="libs/check.js"></script>
     <?php endif; ?>
-    <br></br>
-    <section class="btn btn-primary-outline" align="center">
-        
+    </div>
+    </div>
+    <section>
         <p>What is Bitcoin?</p>
         <p>Bitcoin is a payment system introduced as open-source software in 2009 by developer Satoshi Nakamoto.</p>
         <p>The payments in the system are recorded in a public ledger using its own unit of account, which is also called bitcoin.</p>
@@ -325,8 +325,6 @@ padding: 30px 0;
         <p>Besides mining, bitcoins can be obtained in exchange for fiat money, products, and services.</p>
         <p>Users can send and receive bitcoins electronically for an optional transaction fee using</p> <p> wallet software on a personal computer, mobile device, or a web application.</p>
     </section>
-    </div>
-    </div>
 </div>
 </body>
 </html>
