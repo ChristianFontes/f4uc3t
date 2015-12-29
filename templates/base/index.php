@@ -5,32 +5,214 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title><?php echo $data["name"]; ?></title>
 <script src="//cdn.jsdelivr.net/jquery/2.1.4/jquery.min.js"></script>
+<link rel="stylesheet" href="http://www.top-bit.com/dist/css/bootstrap.css">
+<link rel="stylesheet" href="http://www.top-bit.com/dist/css/flaticon.css">
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <script type="text/javascript" src="libs/mmc.js"></script>
 <style>
-
 body{
-    background-color: #A8A8A8;
+padding: 0;
+margin: 0;
+font-family: 'Roboto', sans-serif;
+color: #b7c9da;
+background: #151F2A;
+background-image:url('http://www.top-bit.com/images/dark-blocks-blue.jpg');
+background-repeat: repeat-x;
+background-attachment: fixed;
 }
 
-#left, #right {
-    margin: 0;
-    width: 25%;
-    float: left;
+.wf{
+max-width: 1200px;
+margin: 0 auto;
 }
 
-#right {
-    text-align: right;
+p {
+ color: #b7c9da;
 }
 
-#center {
-    width: 50%;
-    margin: 0;
-    float: left;
-    text-align: center;
+#page{
+padding: 2% 3%;
+min-height: 100%;
+border: 3px outset #2B3947;
+background: #415160;
+border-radius:25px;
+color: #B7C9DA;
+box-shadow: 0 0 10px #1F1F1F;
+background-image:url('http://www.top-bit.com/images/blackbitcoin.jpg');
+background-attachment: fixed;
+}
+hr { color: #b7c9da; }
+#page a{
+color: #B7C9DA;
+}
+
+#page-cols{
+width: 100%;
+margin-collapse: collapse;
+}
+
+#page-cols .page-col-ad{
+width: 200px;
+}
+
+#page-cols .page-col-body{
+vertical-align: top;
+}
+
+p.rewards{
+margin-top: 0;
+background: #354455;
+padding: 12px 18px;
+font-size: 20px;
+font-weight: 300;
+border: 2px outset #7A8EA1;
+border-radius: 10px;
+}
+
+p.rewards > span{
+font-size: .6em;
+}
+
+input{
+font-family: 'Roboto', sans-serif;
+outline: none;
+border: 0;
+padding: 5px 10px;
+}
+
+form{
+text-align: center;
+
+}
+
+.main-input{
+display: block;
+margin: 5px 0;
+width: 100%;
+box-sizing: border-box;
+background: #1F1F1F; //#FC3A51;
+font-size: 16px;
+font-weight: 300;
+text-align: center;
+border-bottom: 5px solid #B4192B;
+border-radius: 5px;
+}
+
+.main-input.normal{
+background: #667E94;
+border-color: #465668;
+}
+
+.main-input.normal::-webkit-input-placeholder { color: #415264; }
+.main-input.normal::-moz-placeholder { color: #415264; }
+.main-input.normal:-ms-input-placeholder { color: #415264; }
+.main-input.normal:-moz-placeholder { color: #415264; }
+
+.main-input-label{
+display: block;
+margin-bottom: -5px;
+font-size: 16px;
+}
+
+
+::-webkit-input-placeholder { color: #9C1E2D; }
+::-moz-placeholder { color: #9C1E2D; }
+:-ms-input-placeholder { color: #9C1E2D; }
+input:-moz-placeholder { color: #9C1E2D; }
+
+.ref{
+background: #354455;
+padding: 12px 18px;
+font-size: 16px;
+font-weight: 300;
+border: 2px outset #7A8EA1;
+border-radius: 10px;
+margin-top: 5%;
+margin-bottom: 0;
+}
+
+.ref .t{
+display: block;
+font-weight: 500;
+color: #7A8EA1;
+}
+
+#footer{
+margin: 2% 0;
+text-align: center;
+font-weight: 300;
+color: #d4a237;
+}
+
+#footer a{
+color: #c0c0c0;
+}
+
+.alert{
+color: #FC3A51;
+font-size: 15px;
+font-weight: 500;
+text-transform: uppercase;
+letter-spacing: 2px;
+border-bottom: 1px dashed #FC3A51;
+width: auto;
+display: inline-block;
+}
+
+.alert-success{
+color: #1BA81B;
+border-color: #1BA81B;
+font-weight: normal;
+font-size: 18px;
+}
+
+.alert a{
+color: inherit;
+text-decoration: none;
+font-weight: bold;
+}
+
+#disabled-box{
+text-align: center;
+font-size: 80px;
+font-weight: 500;
+color: #FC3A51;
+margin: 11.2% 0;
+}
+
+#disabled-box .desc{
+font-size: 25px;
+}
+
+#disabled-box a{
+color: #FC3A51;
 }
 
 #recaptcha_area {
-    margin: 0 auto;
+margin: 3% auto 0;
+}
+
+#adcopy-outer {
+margin: 3% auto 0 !important;
+}
+
+.center{
+text-align: center;
+}
+
+.captcha-switcher{
+padding-top: 5px;
+font-size: 12px;
+}
+
+.captcha-switcher a{
+text-decoration: none;
+}
+
+.captcha-switcher b{
+font-weight: 500;
+color: #86ADC3;
 }
 
 #captchme_widget_div{
@@ -41,14 +223,18 @@ width: 315px;
 .g-recaptcha{
 width: 304px;
 margin: 0 auto;
-}
-
-#adcopy-outer {
-    margin: 0 auto !important;
+margin-top: 20px;
 }
 
 .reklamper-widget-holder{
 margin: auto;
+}
+
+.timer{
+text-align: center;
+font-size: 45px;
+font-weight: 300;
+padding: 30px 0;
 }
 </style>
 </head>
