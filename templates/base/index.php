@@ -9,7 +9,7 @@
 <style>
 
 body{
-    background-color: #000;
+    background-color: #A8A8A8;
 }
 
 #left, #right {
