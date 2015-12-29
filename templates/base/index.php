@@ -239,6 +239,7 @@ padding: 30px 0;
 </style>
 </head>
 <body>
+<div class="container">
     <div id="left">
         <ul>
         <?php foreach($data["user_pages"] as $page): ?>
@@ -310,5 +311,6 @@ padding: 30px 0;
     <script type="text/javascript" src="libs/advertisement.js"></script>
     <script type="text/javascript" src="libs/check.js"></script>
     <?php endif; ?>
+</div>
 </body>
 </html>
