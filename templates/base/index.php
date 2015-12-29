@@ -276,6 +276,17 @@ padding: 30px 0;
                 <br></br>
 
                 <div>
+                <section>
+                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <!-- 300 x 250 Normal -->
+                <ins class="adsbygoogle"
+                     style="display:inline-block;width:300px;height:250px"
+                     data-ad-client="ca-pub-1321388824434022"
+                     data-ad-slot="1694511595"></ins>
+                <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+                </section>
                     <?php echo $data["captcha"]; ?>
                     <div class="text-center">
                     <?php
@@ -290,6 +301,18 @@ padding: 30px 0;
                     }
                     ?>
                     </div>
+                <section>
+                    <script type="text/javascript">
+                        google_ad_client = "ca-pub-1321388824434022";
+                        google_ad_slot = "1694511595";
+                        google_ad_width = 300;
+                        google_ad_height = 250;
+                    </script>
+                    <!-- 300 x 250 Normal -->
+                    <script type="text/javascript"
+                    src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+                    </script>
+                </section>
                 </div>
                 <div>
                     <input type="submit" class="btn btn-primary-outline" data-toggle="modal" data-target="#botSystemModal" value="Get reward!">
