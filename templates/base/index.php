@@ -291,7 +291,7 @@ padding: 30px 0;
                     </div>
                 </div>
                 <div>
-                    <input type="submit" class="btn btn-primary btn-lg" value="Get reward!">
+                    <input type="submit" class="btn btn-primary-outline" data-toggle="modal" data-target="#botSystemModal" value="Get reward!">
                 </div>
             </form>
         <?php break; case "visit_later": ?>
