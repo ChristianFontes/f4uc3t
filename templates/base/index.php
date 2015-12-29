@@ -318,12 +318,12 @@ padding: 30px 0;
         <p>What is Bitcoin?</p>
         <p>Bitcoin is a payment system introduced as open-source software in 2009 by developer Satoshi Nakamoto.</p>
         <p>The payments in the system are recorded in a public ledger using its own unit of account, which is also called bitcoin.</p>
-        <p>Payments work peer-to-peer without a central repository or single administrator, which has led the US Treasury to call bitcoin a decentralized virtual currency.</p>
+        <p>Payments work peer-to-peer without a central repository or single administrator,</p> <p>which has led the US Treasury to call bitcoin a decentralized virtual currency.</p>
         <p>Although its status as a currency is disputed, media reports often refer to bitcoin as a cryptocurrency or digital currency.<p>
-        <p>Bitcoins are created as a reward for payment processing work in which users offer their computing power to verify and record payments into the public ledger.
+        <p>Bitcoins are created as a reward for payment processing work in which users offer their</p> <p> computing power to verify and record payments into the public ledger.
         <p>Called mining, individuals or companies engage in this activity in exchange for transaction fees and newly created bitcoins.</p> 
         <p>Besides mining, bitcoins can be obtained in exchange for fiat money, products, and services.</p>
-        <p>Users can send and receive bitcoins electronically for an optional transaction fee using wallet software on a personal computer, mobile device, or a web application.</p>
+        <p>Users can send and receive bitcoins electronically for an optional transaction fee using</p> <p> wallet software on a personal computer, mobile device, or a web application.</p>
     </section>
     </div>
     </div>
