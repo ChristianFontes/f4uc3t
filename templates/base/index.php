@@ -262,11 +262,17 @@ padding: 30px 0;
                     <p class="alert alert-danger" role="alert">Invalid Captcha!</p>
                     <?php endif; ?>
                 </div>
-                <div>
+                
+
+                <div class="input-group">
+                    <span class="input-group-addon text-primary"><i class="fa fa-btc"></i> Address</span>
                     <input type="text" name="address" class="form-control" style="position: absolute; position: fixed; left: -99999px; top: -99999px; opacity: 0; width: 1px; height: 1px">
                     <input type="checkbox" name="honeypot" style="position: absolute; position: fixed; left: -99999px; top: -99999px; opacity: 0; width: 1px; height: 1px">
-                    <label>Your address:</label> <input type="text" name="<?php echo $data["address_input_name"]; ?>" class="form-control" value="<?php echo $data["address"]; ?>">
+                    <input type="text" name="2wrPrJn8O8asxdaHFPVKmdDWeyIihAeK" class="form-control normal" placeholder="i.e. 1DT5CupfxUn6UJK97ocVnWN2CzQPn8MgrN" value="" autocomplete="off">
                 </div>
+
+
+
                 <div>
                     <?php echo $data["captcha"]; ?>
                     <div class="text-center">
