@@ -1,5 +1,5 @@
 <?php
-
+// Your password: mnQ25n4eZoFKRod. Make sure to save it
 $dbhost = "mysql.hostinger.es";
 $dbuser = "u112085043_user";
 $dbpass = "ajZ0uSm4Q4V";

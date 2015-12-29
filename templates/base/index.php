@@ -7,6 +7,11 @@
 <script src="//cdn.jsdelivr.net/jquery/2.1.4/jquery.min.js"></script>
 <script type="text/javascript" src="libs/mmc.js"></script>
 <style>
+
+body{
+    background-color: #665;
+}
+
 #left, #right {
     margin: 0;
     width: 25%;
