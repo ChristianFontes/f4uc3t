@@ -275,45 +275,51 @@ padding: 30px 0;
                 </div>
                 <br></br>
 
-                <div>
-                <section>
-                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                <!-- 300 x 250 Normal -->
-                <ins class="adsbygoogle"
-                     style="display:inline-block;width:300px;height:250px"
-                     data-ad-client="ca-pub-1321388824434022"
-                     data-ad-slot="1694511595"></ins>
-                <script>
-                (adsbygoogle = window.adsbygoogle || []).push({});
-                </script>
-                </section>
-                    <?php echo $data["captcha"]; ?>
-                    <div class="text-center">
-                    <?php
-                    if (count($data['captcha_info']['available']) > 1) {
-                        foreach ($data['captcha_info']['available'] as $c) {
-                            if ($c == $data['captcha_info']['selected']) {
-                                echo '<b>' .$c. '</b> ';
-                            } else {
-                                echo '<a href="?cc='.$c.'">'.$c.'</a> ';
+
+                <table style="width:100%">
+                  <tr>
+                    <td>
+                        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                        <!-- 300 x 250 Normal -->
+                        <ins class="adsbygoogle"
+                             style="display:inline-block;width:300px;height:250px"
+                             data-ad-client="ca-pub-1321388824434022"
+                             data-ad-slot="1694511595"></ins>
+                        <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                        </script>
+                    </td>
+                    <td>
+                        <?php echo $data["captcha"]; ?>
+                        <div class="text-center">
+                        <?php
+                        if (count($data['captcha_info']['available']) > 1) {
+                            foreach ($data['captcha_info']['available'] as $c) {
+                                if ($c == $data['captcha_info']['selected']) {
+                                    echo '<b>' .$c. '</b> ';
+                                } else {
+                                    echo '<a href="?cc='.$c.'">'.$c.'</a> ';
+                                }
                             }
                         }
-                    }
-                    ?>
-                    </div>
-                <section>
-                    <script type="text/javascript">
+                        ?>
+                        </div>
+                    </td>
+                    <td>
+                        <script type="text/javascript">
                         google_ad_client = "ca-pub-1321388824434022";
                         google_ad_slot = "1694511595";
                         google_ad_width = 300;
                         google_ad_height = 250;
-                    </script>
-                    <!-- 300 x 250 Normal -->
-                    <script type="text/javascript"
-                    src="//pagead2.googlesyndication.com/pagead/show_ads.js">
-                    </script>
-                </section>
-                </div>
+                        </script>
+                        <!-- 300 x 250 Normal -->
+                        <script type="text/javascript"
+                        src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+                        </script>
+                    </td>
+                  </tr>
+                  <tr>
+                </table>
                 <div>
                     <input type="submit" class="btn btn-primary-outline" data-toggle="modal" data-target="#botSystemModal" value="Get reward!">
                 </div>
