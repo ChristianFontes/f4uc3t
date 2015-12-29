@@ -9,7 +9,7 @@
 <style>
 
 body{
-    background-color: #665;
+    background-color: #000;
 }
 
 #left, #right {
@@ -60,11 +60,8 @@ margin: auto;
         <?php endforeach; ?>
         </ul>
         <?php echo $data["custom_left_ad_slot"]; ?>
-        <p>Possible rewards: <?php echo $data["rewards"]; ?></p>
     </div>
         <div id="center">
-        <h1><?php echo $data["name"]; ?></h1>
-        <h2><?php echo $data["short"]; ?></h2>
         <p>Balance: <?php echo $data["balance"]." ".$data["unit"]; ?></p>
         <?php if($data["error"]) echo $data["error"]; ?>
         <?php switch($data["page"]):
@@ -112,13 +109,6 @@ margin: auto;
     </div>
     <div id="right">
         <?php echo $data["custom_right_ad_slot"]; ?>
-        <?php if($data["referral"]): ?>
-        <p>
-        Referral commission: <?php echo $data["referral"]; ?>%<br>
-        Reflink:<br>
-        <code><?php echo $data["reflink"]; ?></code>
-        </p>
-        <?php endif; ?>
     </div>
     <?php if($data['button_timer']): ?>
     <script type="text/javascript" src="libs/button-timer.js"></script>
