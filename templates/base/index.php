@@ -306,15 +306,14 @@ padding: 30px 0;
                         </div>
                     </td>
                     <td>
-                        <script type="text/javascript">
-                        google_ad_client = "ca-pub-1321388824434022";
-                        google_ad_slot = "1694511595";
-                        google_ad_width = 300;
-                        google_ad_height = 250;
-                        </script>
+                        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                         <!-- 300 x 250 Normal -->
-                        <script type="text/javascript"
-                        src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+                        <ins class="adsbygoogle"
+                             style="display:inline-block;width:300px;height:250px"
+                             data-ad-client="ca-pub-1321388824434022"
+                             data-ad-slot="1694511595"></ins>
+                        <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
                         </script>
                     </td>
                   </tr>
@@ -345,15 +344,19 @@ padding: 30px 0;
     <table>
     <tr>
         <td>
-        <p>What is Bitcoin?</p>
-        <p>Bitcoin is a payment system introduced as open-source software in 2009 by developer Satoshi Nakamoto.</p>
-        <p>The payments in the system are recorded in a public ledger using its own unit of account, which is also called bitcoin.</p>
-        <p>Payments work peer-to-peer without a central repository or single administrator,</p> <p>which has led the US Treasury to call bitcoin a decentralized virtual currency.</p>
-        <p>Although its status as a currency is disputed, media reports often refer to bitcoin as a cryptocurrency or digital currency.<p>
-        <p>Bitcoins are created as a reward for payment processing work in which users offer their</p> <p> computing power to verify and record payments into the public ledger.
-        <p>Called mining, individuals or companies engage in this activity in exchange for transaction fees and newly created bitcoins.</p> 
-        <p>Besides mining, bitcoins can be obtained in exchange for fiat money, products, and services.</p>
-        <p>Users can send and receive bitcoins electronically for an optional transaction fee using</p> <p> wallet software on a personal computer, mobile device, or a web application.</p>
+            What is a faucet?
+
+            A faucet is a site that allows people to earn bitcoin (BTC) virtual currency by completing simple 
+            tasks, such as viewing a webpage for a specified amount of time, 
+            viewing ad content, even solving CAPTCHAs and playing games. The payout from each faucet task is 
+            generally quite small, but over time as you accumulate bitcoin currency through multiple tasks, 
+            and as the value of the BTC increases relative to other currencies (which it is expected to do), 
+            the earnings from bitcoin faucets could be substantial. Because bitcoin currency is being released 
+            on a deflationary schedule, due to laws of supply and demand, it is expected to grow stronger 
+            over time compared to other currencies. In order to receive bitcoin currency, either through direct 
+            purchase or from a faucet, you will first need to have a bitcoin wallet.
+        </td>
+        <td>
         </td>
     </tr>
     </table>
