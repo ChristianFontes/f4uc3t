@@ -326,7 +326,7 @@ padding: 30px 0;
     <br></br>
     <table style="width:100%">
     <tr>
-        <td>
+        <td align="justify">
             What is a faucet?
 
             A faucet is a site that allows people to earn bitcoin (BTC) virtual currency by completing simple 
