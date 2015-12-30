@@ -318,7 +318,7 @@ padding: 30px 0;
                         <?php echo $data["custom_right_ad_slot"]; ?>
                     </td>
                     <td>
-                        <p>You have to wait <?php echo $data["time_left"]; ?></p>
+                        <center><p class="alert alert-danger" role="alert">You have to wait <?php echo $data["time_left"]; ?></p></center>
                     </td>
                     <td>
                         <?php echo $data["custom_right_ad_slot"]; ?>
@@ -362,7 +362,7 @@ padding: 30px 0;
         </td>
     </tr>
     <tr>
-        <td>
+        <td align="justify">
             What is bitcoin?
 
             Bitcoin is a payment system introduced as open-source software in 2009 by developer Satoshi Nakamoto. The payments in the system are recorded in a public ledger using its own unit of account, which is also called bitcoin. Payments work peer-to-peer without a central repository or single administrator, which has led the US Treasury to call bitcoin a decentralized virtual currency. Although its status as a currency is disputed, media reports often refer to bitcoin as a cryptocurrency or digital currency.
