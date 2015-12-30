@@ -324,7 +324,7 @@ padding: 30px 0;
     <script type="text/javascript" src="libs/check.js"></script>
     <?php endif; ?>
     <br></br>
-    <table>
+    <table style="width:100%">
     <tr>
         <td>
             What is a faucet?
@@ -340,16 +340,18 @@ padding: 30px 0;
             purchase or from a faucet, you will first need to have a bitcoin wallet.
         </td>
         <td>
+            <div id="coindesk-widget" data-size="mpu" data-align="center"></div>
+            <script type="text/javascript" src="//widget.coindesk.com/bpiticker/coindesk-widget.min.js?88e6a4"></script>
+        </td>
+        <!--
+        <td>
             What is bitcoin?
 
             Bitcoin is a payment system introduced as open-source software in 2009 by developer Satoshi Nakamoto. The payments in the system are recorded in a public ledger using its own unit of account, which is also called bitcoin. Payments work peer-to-peer without a central repository or single administrator, which has led the US Treasury to call bitcoin a decentralized virtual currency. Although its status as a currency is disputed, media reports often refer to bitcoin as a cryptocurrency or digital currency.
 
             Bitcoins are created as a reward for payment processing work in which users offer their computing power to verify and record payments into the public ledger. Called mining, individuals or companies engage in this activity in exchange for transaction fees and newly created bitcoins. Besides mining, bitcoins can be obtained in exchange for fiat money, products, and services. Users can send and receive bitcoins electronically for an optional transaction fee using wallet software on a personal computer, mobile device, or a web application.
-
-            Bitcoin as a form of payment for products and services has seen growth,and merchants have an incentive to accept the digital currency because fees are lower than the 2-3% typically imposed by credit card processors. The European Banking Authority has warned that bitcoin lacks consumer protections. Unlike credit cards, any fees are paid by the purchaser not the vendor. Bitcoins can be stolen and chargebacks are impossible. Commercial use of bitcoin is currently small compared to its use by speculators, which has fueled price volatility.
-
-            Bitcoin has been a subject of scrutiny amid concerns that it can be used for illegal activities. In October 2013 the US FBI shut down the Silk Road online black market and seized 144,000 bitcoins worth US$28.5 million at the time. The US is considered bitcoin-friendly compared to other governments. In China, buying bitcoins with yuan is subject to restrictions, and bitcoin exchanges are not allowed to hold bank accounts.
         </td>
+        -->
     </tr>
     </table>
     </div>
