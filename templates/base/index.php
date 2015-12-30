@@ -275,19 +275,10 @@ padding: 30px 0;
                 </div>
                 <br></br>
 
-
                 <table style="width:100%">
                   <tr>
                     <td>
-                        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                        <!-- 300 x 250 Normal -->
-                        <ins class="adsbygoogle"
-                             style="display:inline-block;width:300px;height:250px"
-                             data-ad-client="ca-pub-1321388824434022"
-                             data-ad-slot="1694511595"></ins>
-                        <script>
-                        (adsbygoogle = window.adsbygoogle || []).push({});
-                        </script>
+                        <?php echo $data["custom_right_ad_slot"]; ?>
                     </td>
                     <td>
                         <?php echo $data["captcha"]; ?>
@@ -306,15 +297,7 @@ padding: 30px 0;
                         </div>
                     </td>
                     <td>
-                        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                        <!-- 300 x 250 Normal -->
-                        <ins class="adsbygoogle"
-                             style="display:inline-block;width:300px;height:250px"
-                             data-ad-client="ca-pub-1321388824434022"
-                             data-ad-slot="1694511595"></ins>
-                        <script>
-                        (adsbygoogle = window.adsbygoogle || []).push({});
-                        </script>
+                        <?php echo $data["custom_right_ad_slot"]; ?>
                     </td>
                   </tr>
                   <tr>
@@ -330,7 +313,7 @@ padding: 30px 0;
         <?php break; endswitch; ?>
     </div>
     <div id="right">
-        <?php echo $data["custom_right_ad_slot"]; ?>
+        
     </div>
     <?php if($data['button_timer']): ?>
     <script type="text/javascript" src="libs/button-timer.js"></script>
