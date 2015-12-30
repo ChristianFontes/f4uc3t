@@ -22,6 +22,11 @@ background-repeat: repeat-x;
 background-attachment: fixed;
 }
 
+table {
+  border-collapse: separate;
+  border-spacing:  5px;
+}
+
 .wf{
 max-width: 1200px;
 margin: 0 auto;
