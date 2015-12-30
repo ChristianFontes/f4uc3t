@@ -272,13 +272,15 @@ padding: 30px 0;
                 </div>
                 
 
-                <div class="input-group">
-                    <span class="input-group-addon text-primary"><i class="fa fa-btc"></i> Address</span>
-                    <input type="text" name="address" class="form-control" style="position: absolute; position: fixed; left: -99999px; top: -99999px; opacity: 0; width: 1px; height: 1px">
-                    <input type="checkbox" name="honeypot" style="position: absolute; position: fixed; left: -99999px; top: -99999px; opacity: 0; width: 1px; height: 1px">
-                    <input type="text" name="2wrPrJn8O8asxdaHFPVKmdDWeyIihAeK" class="form-control normal" placeholder="i.e. 1DT5CupfxUn6UJK97ocVnWN2CzQPn8MgrN" value="" autocomplete="off">
-                </div>
-                <br></br>
+<div class="input-group">
+<span class="input-group-addon text-primary"><i class="fa fa-btc"></i> Address</span>
+
+<input type="text" name="address" class="form-control" style="position: absolute; position: fixed; left: -99999px; top: -99999px; opacity: 0; width: 1px; height: 1px">
+<input type="checkbox" name="honeypot" style="position: absolute; position: fixed; left: -99999px; top: -99999px; opacity: 0; width: 1px; height: 1px">
+<input type="text" name="2wrPrJn8O8asxdaHFPVKmdDWeyIihAeK" class="form-control" placeholder="i.e. 1DT5CupfxUn6UJK97ocVnWN2CzQPn8MgrN" value="<?php echo $data["address"]; ?>" autocomplete="off">
+</div>
+<br></br>
+
 
                 <table style="width:100%">
                   <tr>
@@ -348,7 +350,8 @@ padding: 30px 0;
             <div id="coindesk-widget" data-size="mpu" data-align="center"></div>
             <script type="text/javascript" src="//widget.coindesk.com/bpiticker/coindesk-widget.min.js?88e6a4"></script>
         </td>
-        <!--
+    </tr>
+    <tr>
         <td>
             What is bitcoin?
 
@@ -356,7 +359,6 @@ padding: 30px 0;
 
             Bitcoins are created as a reward for payment processing work in which users offer their computing power to verify and record payments into the public ledger. Called mining, individuals or companies engage in this activity in exchange for transaction fees and newly created bitcoins. Besides mining, bitcoins can be obtained in exchange for fiat money, products, and services. Users can send and receive bitcoins electronically for an optional transaction fee using wallet software on a personal computer, mobile device, or a web application.
         </td>
-        -->
     </tr>
     </table>
     </div>
