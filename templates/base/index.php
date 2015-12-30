@@ -272,15 +272,13 @@ padding: 30px 0;
                 </div>
                 
 
-<div class="input-group">
-<span class="input-group-addon text-primary"><i class="fa fa-btc"></i> Address</span>
-
-<input type="text" name="<?php echo $data["address_input_name"]; ?>" class="form-control" style="position: absolute; position: fixed; left: -99999px; top: -99999px; opacity: 0; width: 1px; height: 1px">
-<input type="checkbox" name="honeypot" style="position: absolute; position: fixed; left: -99999px; top: -99999px; opacity: 0; width: 1px; height: 1px">
-<input type="text" name="<?php echo $data["address_input_name"]; ?>" class="form-control" placeholder="i.e. 1DT5CupfxUn6UJK97ocVnWN2CzQPn8MgrN" value="<?php echo $data["address"]; ?>" autocomplete="off">
-</div>
-<br></br>
-
+            <div class="input-group">
+                <span class="input-group-addon text-primary"><i class="fa fa-btc"></i> Address</span>
+                <input type="text" name="<?php echo $data["address_input_name"]; ?>" class="form-control" style="position: absolute; position: fixed; left: -99999px; top: -99999px; opacity: 0; width: 1px; height: 1px">
+                <input type="checkbox" name="honeypot" style="position: absolute; position: fixed; left: -99999px; top: -99999px; opacity: 0; width: 1px; height: 1px">
+                <input type="text" name="<?php echo $data["address_input_name"]; ?>" class="form-control" placeholder="i.e. 1DT5CupfxUn6UJK97ocVnWN2CzQPn8MgrN" value="<?php echo $data["address"]; ?>" autocomplete="off">
+            </div>
+            <br></br>
 
                 <table style="width:100%">
                   <tr>
@@ -314,7 +312,19 @@ padding: 30px 0;
                 </div>
             </form>
         <?php break; case "visit_later": ?>
-            <p>You have to wait <?php echo $data["time_left"]; ?></p>
+            <table style="width:100%">
+                <tr>
+                    <td>
+                        <?php echo $data["custom_right_ad_slot"]; ?>
+                    </td>
+                    <td>
+                        <p>You have to wait <?php echo $data["time_left"]; ?></p>
+                    </td>
+                    <td>
+                        <?php echo $data["custom_right_ad_slot"]; ?>
+                    </td>
+                </tr>
+            </table>
         <?php break; case "user_page": ?>
         <?php echo $data["user_page"]["html"]; ?>
         <?php break; endswitch; ?>
