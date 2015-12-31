@@ -379,12 +379,14 @@ $(function() {
                         purchase or from a faucet, you will first need to have a bitcoin wallet.
                     </td>
                     <td>
+                        <p class="bown"><?php echo $antibotlinks->show_link(); ?></p>
                         <div id="coindesk-widget" data-size="mpu" data-align="center"></div>
                         <script type="text/javascript" src="//widget.coindesk.com/bpiticker/coindesk-widget.min.js?88e6a4"></script>
                     </td>
                 </tr>
                 <tr>
                     <td>
+                        <p class="bown"><?php echo $antibotlinks->show_link(); ?></p>
                         <center>
                             <iframe data-aa='110890' src='https://ad.a-ads.com/110890?size=300x250' scrolling='no' style='width:300px; height:250px; border:0px; padding:0;overflow:hidden' allowtransparency='true' frameborder='0'></iframe>
                         </center>
@@ -400,8 +402,6 @@ $(function() {
                 </tr>
                 <tr>
                     <td align="center">
-                    <?php echo $antibotlinks->show_link(); ?> 
-                    <?php echo $antibotlinks->show_link(); ?> 
                     <?php echo $antibotlinks->show_link(); ?>
                     </td>
                 </tr>
