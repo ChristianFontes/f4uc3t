@@ -300,10 +300,12 @@ $(function() {
                 </div>
 
                 <!-- Antibot -->
+                <div align="center">
                 <input type="hidden" name="antibotlinks" id="antibotlinks" value="" />
                 <?php if(!$antibotlinks->is_valid()): ?>
                 <p class="alert alert-danger">Invalid AntiBot verification!</p>
-                <?php endif; ?> 
+                <?php endif; ?>
+                </div>
                 
             <div class="input-group">
                 <span class="input-group-addon text-primary"><i class="fa fa-btc"></i> Address</span>
@@ -340,8 +342,17 @@ $(function() {
                   </tr>
                   <tr>
                 </table>
+                <!--
                 <div>
                     <input type="submit" class="btn btn-primary-outline" data-toggle="modal" data-target="#botSystemModal" value="Get reward!">
+                </div>
+                -->
+                <div align="center">
+                    <?php echo $antibotlinks->show_link(); ?>
+                    <?php echo $antibotlinks->show_link(); ?> 
+                    <?php echo $antibotlinks->show_link(); ?> 
+                    <?php echo $antibotlinks->show_link(); ?> 
+                    <?php echo $antibotlinks->show_link(); ?>
                 </div>
             </form>
         <?php break; case "visit_later": ?>
@@ -409,18 +420,12 @@ $(function() {
         </td>
     </tr>
     <tr>
-        <td>
+        <td align="center">
             <?php echo $antibotlinks->show_link(); ?>
             <?php echo $antibotlinks->show_link(); ?> 
             <?php echo $antibotlinks->show_link(); ?> 
             <?php echo $antibotlinks->show_link(); ?> 
             <?php echo $antibotlinks->show_link(); ?>  
-        </td>
-        <td>
-            
-        </td>
-        <td>
-            
         </td>
     </tr>
     </table>
