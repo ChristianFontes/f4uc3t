@@ -170,6 +170,9 @@ display: inline-block;
     -moz-border-radius: 200px 0px 200px 200px;
     -webkit-border-radius: 200px 0px 200px 200px;
     border: 3px solid #ffffff;
+    background-color: #e7a61a;
+    text-align: center;
+    padding: 5px;
 }
 
 .alert-success{
