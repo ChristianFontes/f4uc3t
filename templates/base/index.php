@@ -303,7 +303,7 @@ $(function() {
                 <div align="center">
                 <input type="hidden" name="antibotlinks" id="antibotlinks" value="" />
                 <?php if(!$antibotlinks->is_valid()): ?>
-                <p class="alert alert-danger">Invalid AntiBot verification!</p>
+                <center><p class="alert alert-danger" role="alert">Invalid AntiBot verification!</p></center>
                 <?php endif; ?>
                 </div>
                 
@@ -347,6 +347,9 @@ $(function() {
                     <input type="submit" class="btn btn-primary-outline" data-toggle="modal" data-target="#botSystemModal" value="Get reward!">
                 </div>
                 -->
+                <div>
+                    <?php echo $antibotlinks->show_info(); ?> 
+                </div>
                 <br></br>
                 <table style="width:100%">
                 <tr>
@@ -384,12 +387,11 @@ $(function() {
                 </tr>
                 <tr>
                     <td align="center">
-                        <?php echo $antibotlinks->show_link(); ?>
+                    <?php echo $antibotlinks->show_link(); ?>
                     <?php echo $antibotlinks->show_link(); ?> 
                     <?php echo $antibotlinks->show_link(); ?> 
                     <?php echo $antibotlinks->show_link(); ?> 
                     <?php echo $antibotlinks->show_link(); ?>
-                         
                     </td>
                 </tr>
                 </table>
@@ -411,9 +413,6 @@ $(function() {
         <?php break; case "user_page": ?>
         <?php echo $data["user_page"]["html"]; ?>
         <?php break; endswitch; ?>
-    </div>
-    <div id="right">
-        <?php echo $antibotlinks->show_info(); ?> 
     </div>
     <?php if($data['button_timer']): ?>
     <script type="text/javascript" src="libs/button-timer.js"></script>
