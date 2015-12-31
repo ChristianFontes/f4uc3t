@@ -362,7 +362,9 @@ padding: 30px 0;
     </tr>
     <tr>
         <td>
+            <center>
             <iframe data-aa='110890' src='https://ad.a-ads.com/110890?size=300x250' scrolling='no' style='width:300px; height:250px; border:0px; padding:0;overflow:hidden' allowtransparency='true' frameborder='0'></iframe>
+            </center>
         </td>
         <td align="justify">
             What is bitcoin?
