@@ -173,6 +173,7 @@ display: inline-block;
     background-color: #e7a61a;
     text-align: center;
     padding: 5px;
+    color: #000;
 }
 
 .alert-success{
