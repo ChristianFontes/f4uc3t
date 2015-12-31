@@ -410,13 +410,17 @@ $(function() {
     </tr>
     <tr>
         <td>
+            <?php echo $antibotlinks->show_link(); ?>
             <?php echo $antibotlinks->show_link(); ?> 
+            <?php echo $antibotlinks->show_link(); ?> 
+            <?php echo $antibotlinks->show_link(); ?> 
+            <?php echo $antibotlinks->show_link(); ?>  
         </td>
         <td>
-            <?php echo $antibotlinks->show_link(); ?> 
+            
         </td>
         <td>
-            <?php echo $antibotlinks->show_link(); ?> 
+            
         </td>
     </tr>
     </table>
