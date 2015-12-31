@@ -242,6 +242,35 @@ font-weight: 300;
 padding: 30px 0;
 }
 </style>
+<?php
+# AntiBotLinks START
+?>
+<script style="text/javascript">
+$(function() {
+  var clicks = 0;
+  $('.antibotlinks').click(function() {
+    clicks++;
+    $('#antibotlinks').val($('#antibotlinks').val()+' '+$(this).attr('rel'));
+    if(clicks == <?php echo $antibotlinks->get_link_count(); ?>) {
+      var rand = Math.floor((Math.random() * clicks) + 1);
+      var button = '<input type="submit" class="btn btn-primary btn-lg" value="Get Reward!">';
+      var z=0;
+      $('.antibotlinks').each(function(){
+        z++;
+        if (z==rand) {
+          $(this).replaceWith(button);
+        }
+      });
+      
+    }
+    $(this).hide();
+    return false;
+  });
+});
+</script>
+<?php
+# AntiBotLinks END
+?> 
 </head>
 <body>
 <div class="container">
@@ -269,8 +298,13 @@ padding: 30px 0;
                     <center><p class="alert alert-danger" role="alert">Invalid Captcha!</p></center>
                     <?php endif; ?>
                 </div>
-                
 
+                <!-- Antibot -->
+                <input type="hidden" name="antibotlinks" id="antibotlinks" value="" />
+                <?php if(!$antibotlinks->is_valid()): ?>
+                <p class="alert alert-danger">Invalid AntiBot verification!</p>
+                <?php endif; ?> 
+                
             <div class="input-group">
                 <span class="input-group-addon text-primary"><i class="fa fa-btc"></i> Address</span>
                 <input type="text" name="<?php echo $data["address_input_name"]; ?>" class="form-control" style="position: absolute; position: fixed; left: -99999px; top: -99999px; opacity: 0; width: 1px; height: 1px">
@@ -329,7 +363,7 @@ padding: 30px 0;
         <?php break; endswitch; ?>
     </div>
     <div id="right">
-        
+        <?php echo $antibotlinks->show_info(); ?> 
     </div>
     <?php if($data['button_timer']): ?>
     <script type="text/javascript" src="libs/button-timer.js"></script>
@@ -363,7 +397,7 @@ padding: 30px 0;
     <tr>
         <td>
             <center>
-            <iframe data-aa='110890' src='https://ad.a-ads.com/110890?size=300x250' scrolling='no' style='width:300px; height:250px; border:0px; padding:0;overflow:hidden' allowtransparency='true' frameborder='0'></iframe>
+                <iframe data-aa='110890' src='https://ad.a-ads.com/110890?size=300x250' scrolling='no' style='width:300px; height:250px; border:0px; padding:0;overflow:hidden' allowtransparency='true' frameborder='0'></iframe>
             </center>
         </td>
         <td align="justify">
@@ -372,6 +406,14 @@ padding: 30px 0;
             Bitcoin is a payment system introduced as open-source software in 2009 by developer Satoshi Nakamoto. The payments in the system are recorded in a public ledger using its own unit of account, which is also called bitcoin. Payments work peer-to-peer without a central repository or single administrator, which has led the US Treasury to call bitcoin a decentralized virtual currency. Although its status as a currency is disputed, media reports often refer to bitcoin as a cryptocurrency or digital currency.
 
             Bitcoins are created as a reward for payment processing work in which users offer their computing power to verify and record payments into the public ledger. Called mining, individuals or companies engage in this activity in exchange for transaction fees and newly created bitcoins. Besides mining, bitcoins can be obtained in exchange for fiat money, products, and services. Users can send and receive bitcoins electronically for an optional transaction fee using wallet software on a personal computer, mobile device, or a web application.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <?php echo $antibotlinks->show_link(); ?> 
+        </td>
+        <td>
+            <?php echo $antibotlinks->show_link(); ?> 
         </td>
     </tr>
     </table>

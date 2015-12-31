@@ -2188,6 +2188,17 @@ if($pass) {
 
         $data['captcha_info'] = $captcha;
 
+        # AntiBotLinks
+        require_once('libs/antibotlinks.php');
+        $antibotlinks = new antibotlinks(true);// true if GD is on on the server, false is less secure
+        if (array_key_exists('address', $_POST)) {
+          if (!$antibotlinks->check()) {
+            $antibotlinks->generate(5, true);// number of links once they fail to solve min 3 - max 5, the second param MUST BE true
+          }
+        } else {
+          $antibotlinks->generate(3);// initial number of links min 3 - max 5
+        }
+
         if($data['captcha'] && $data['apikey'] && $data['rewards'])
             $data['enabled'] = true;
 
@@ -2236,6 +2247,8 @@ if($pass) {
 
         if (array_key_exists('address', $_POST) &&
            $data['captcha_valid'] &&
+           # AntiBotLinks
+           $antibotlinks->is_valid() &&
            $data['enabled'] &&
            $data['eligible']
         ) {
