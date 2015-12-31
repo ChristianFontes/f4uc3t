@@ -49,7 +49,7 @@ background-attachment: fixed;
 }
 hr { color: #b7c9da; }
 #page a{
-color: #B7C9DA;
+color: #000;
 }
 
 #page-cols{
