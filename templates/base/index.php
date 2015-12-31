@@ -256,7 +256,6 @@ padding: 30px 0;
         <?php echo $data["custom_left_ad_slot"]; ?>
     </div>
         <div id="center">
-        <p>Balance: <?php echo $data["balance"]." ".$data["unit"]; ?></p>
         <?php if($data["error"]) echo $data["error"]; ?>
         <?php switch($data["page"]):
                 case "disabled": ?>
@@ -267,7 +266,7 @@ padding: 30px 0;
             <form method="POST">
                 <div>
                     <?php if(!$data["captcha_valid"]): ?>
-                    <p class="alert alert-danger" role="alert">Invalid Captcha!</p>
+                    <center><p class="alert alert-danger" role="alert">Invalid Captcha!</p></center>
                     <?php endif; ?>
                 </div>
                 
@@ -362,6 +361,9 @@ padding: 30px 0;
         </td>
     </tr>
     <tr>
+        <td>
+            <iframe data-aa='110890' src='https://ad.a-ads.com/110890?size=300x250' scrolling='no' style='width:300px; height:250px; border:0px; padding:0;overflow:hidden' allowtransparency='true' frameborder='0'></iframe>
+        </td>
         <td align="justify">
             What is bitcoin?
 
