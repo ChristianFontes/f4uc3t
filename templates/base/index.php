@@ -401,8 +401,8 @@ $(function() {
                     </td>
                 </tr>
                 <tr>
-                    <td align="center">
-                    <?php echo $antibotlinks->show_link(); ?>
+                    <td class="bown" align="center">
+                        <?php echo $antibotlinks->show_link(); ?>
                     </td>
                 </tr>
                 </table>
