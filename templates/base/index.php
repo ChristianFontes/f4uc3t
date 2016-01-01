@@ -365,7 +365,16 @@ $(function() {
                 </div>
                 -->
                 <div>
-                    <?php echo $antibotlinks->show_info(); ?> 
+                    <?php echo $antibotlinks->show_info(); ?>
+                    <center><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                    <!-- 728 text -->
+                    <ins class="adsbygoogle"
+                         style="display:inline-block;width:728px;height:15px"
+                         data-ad-client="ca-pub-1321388824434022"
+                         data-ad-slot="4774737593"></ins>
+                    <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script></center> 
                 </div>
                 <br></br>
                 <table style="width:100%">
@@ -429,6 +438,18 @@ $(function() {
                         <center>
                             <iframe data-aa='110890' src='https://ad.a-ads.com/110890?size=300x250' scrolling='no' style='width:300px; height:250px; border:0px; padding:0;overflow:hidden' allowtransparency='true' frameborder='0'></iframe>
                         </center>
+                    </td>
+                    <td align="center">
+                        <p class="bown"></p>
+                        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                        <!-- Texto 200 x 90 -->
+                        <ins class="adsbygoogle"
+                             style="display:inline-block;width:200px;height:90px"
+                             data-ad-client="ca-pub-1321388824434022"
+                             data-ad-slot="8286607193"></ins>
+                        <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                        </script>
                     </td>
                 </tr>
                 </table>
