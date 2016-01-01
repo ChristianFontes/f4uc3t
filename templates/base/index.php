@@ -166,14 +166,14 @@ display: inline-block;
 }
 
 .bown{
-    border-radius: 200px 0px 200px 200px;
-    -moz-border-radius: 200px 0px 200px 200px;
-    -webkit-border-radius: 200px 0px 200px 200px;
-    border: 3px solid #ffffff;
-    background-color: #e7a61a;
-    text-align: center;
-    padding: 5px;
-    color: #000000;
+border-radius: 200px 0px 200px 200px;
+-moz-border-radius: 200px 0px 200px 200px;
+-webkit-border-radius: 200px 0px 200px 200px;
+border: 3px solid #ffffff;
+background-color: #e7a61a;
+text-align: center;
+padding: 5px;
+color: #000000;
 }
 
 .alert-success{
@@ -253,9 +253,6 @@ font-weight: 300;
 padding: 30px 0;
 }
 </style>
-<?php
-# AntiBotLinks START
-?>
 <script style="text/javascript">
 $(function() {
   var clicks = 0;
@@ -279,9 +276,7 @@ $(function() {
   });
 });
 </script>
-<?php
-# AntiBotLinks END
-?> 
+
 </head>
 <body>
 <div class="container">
@@ -403,6 +398,18 @@ $(function() {
                 <tr>
                     <td class="bown" align="center">
                         <?php echo $antibotlinks->show_link(); ?>
+                    </td>
+                    <td>
+                        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                        <!-- Enlaces Adaptables -->
+                        <ins class="adsbygoogle"
+                             style="display:block"
+                             data-ad-client="ca-pub-1321388824434022"
+                             data-ad-slot="4885815591"
+                             data-ad-format="link"></ins>
+                        <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                        </script>
                     </td>
                 </tr>
                 </table>
