@@ -374,34 +374,33 @@ $(function() {
                         purchase or from a faucet, you will first need to have a bitcoin wallet.
                     </td>
                     <td>
+                        <p class="bown"><?php echo $antibotlinks->show_link(); ?></p>
+                        <center>
                         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                        <!-- 468 x 15 Texto -->
+                        <!-- Texto 200 x 90 -->
                         <ins class="adsbygoogle"
-                             style="display:inline-block;width:468px;height:15px"
+                             style="display:inline-block;width:200px;height:90px"
                              data-ad-client="ca-pub-1321388824434022"
-                             data-ad-slot="6809873993"></ins>
+                             data-ad-slot="8286607193"></ins>
                         <script>
                         (adsbygoogle = window.adsbygoogle || []).push({});
                         </script>
-                        <p class="bown"><?php echo $antibotlinks->show_link(); ?></p>
-                        <div id="coindesk-widget" data-size="mpu" data-align="center"></div>
-                        <script type="text/javascript" src="//widget.coindesk.com/bpiticker/coindesk-widget.min.js?88e6a4"></script>
+                        </center>
                     </td>
                 </tr>
                 <tr>
                     <td>
+                        <p class="bown"><?php echo $antibotlinks->show_link(); ?></p>
+                        <center>
                         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                        <!-- 468 x 15 Texto -->
+                        <!-- Texto 200 x 90 -->
                         <ins class="adsbygoogle"
-                             style="display:inline-block;width:468px;height:15px"
+                             style="display:inline-block;width:200px;height:90px"
                              data-ad-client="ca-pub-1321388824434022"
-                             data-ad-slot="6809873993"></ins>
+                             data-ad-slot="8286607193"></ins>
                         <script>
                         (adsbygoogle = window.adsbygoogle || []).push({});
                         </script>
-                        <p class="bown"><?php echo $antibotlinks->show_link(); ?></p>
-                        <center>
-                            <iframe data-aa='110890' src='https://ad.a-ads.com/110890?size=300x250' scrolling='no' style='width:300px; height:250px; border:0px; padding:0;overflow:hidden' allowtransparency='true' frameborder='0'></iframe>
                         </center>
                     </td>
                     <td align="justify">
@@ -416,9 +415,13 @@ $(function() {
                 <tr>
                     <td class="bown" align="center">
                         <?php echo $antibotlinks->show_link(); ?>
+                        <center>
+                            <iframe data-aa='110890' src='https://ad.a-ads.com/110890?size=300x250' scrolling='no' style='width:300px; height:250px; border:0px; padding:0;overflow:hidden' allowtransparency='true' frameborder='0'></iframe>
+                        </center>
                     </td>
                     <td>
-                        
+                        <div id="coindesk-widget" data-size="mpu" data-align="center"></div>
+                        <script type="text/javascript" src="//widget.coindesk.com/bpiticker/coindesk-widget.min.js?88e6a4"></script>
                     </td>
                 </tr>
                 </table>
