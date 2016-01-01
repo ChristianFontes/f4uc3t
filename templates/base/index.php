@@ -472,7 +472,7 @@ $(function() {
                 <table style="width:100%">
                 <tr>
                     <td align="justify">
-                        <p class="bown"><?php echo $antibotlinks->show_link(); ?></p>
+                        <p class="bown"></p>
                         What is a faucet?
 
                         A faucet is a site that allows people to earn bitcoin (BTC) virtual currency by completing simple 
@@ -487,6 +487,7 @@ $(function() {
                     </td>
                     <td>
                         <p class="bown"></p>
+                        <center>
                         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                         <!-- 300 x 250 Normal -->
                         <ins class="adsbygoogle"
@@ -495,7 +496,7 @@ $(function() {
                              data-ad-slot="1694511595"></ins>
                         <script>
                         (adsbygoogle = window.adsbygoogle || []).push({});
-                        </script>
+                        </script></center>
                     </td>
                 </tr>
                 <tr>
@@ -506,7 +507,7 @@ $(function() {
                         </center>
                     </td>
                     <td align="justify">
-                        <p class="bown"><?php echo $antibotlinks->show_link(); ?></p>
+                        <p class="bown"></p>
                         What is bitcoin?
 
                         Bitcoin is a payment system introduced as open-source software in 2009 by developer Satoshi Nakamoto. The payments in the system are recorded in a public ledger using its own unit of account, which is also called bitcoin. Payments work peer-to-peer without a central repository or single administrator, which has led the US Treasury to call bitcoin a decentralized virtual currency. Although its status as a currency is disputed, media reports often refer to bitcoin as a cryptocurrency or digital currency.
