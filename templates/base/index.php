@@ -343,7 +343,10 @@ $(function() {
                         </div>
                     </td>
                     <td>
-                        <?php echo $data["custom_right_ad_slot"]; ?>
+                        <center>
+                        <div id="coindesk-widget" data-size="mpu" data-align="center"></div>
+                        <script type="text/javascript" src="//widget.coindesk.com/bpiticker/coindesk-widget.min.js?88e6a4"></script>
+                        </center>
                     </td>
                   </tr>
                   <tr>
@@ -379,15 +382,7 @@ $(function() {
                         <div id="coindesk-widget" data-size="mpu" data-align="center"></div>
                         <script type="text/javascript" src="//widget.coindesk.com/bpiticker/coindesk-widget.min.js?88e6a4"></script>
                         -->
-                        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                        <!-- Texto 200 x 90 -->
-                        <ins class="adsbygoogle"
-                             style="display:inline-block;width:200px;height:90px"
-                             data-ad-client="ca-pub-1321388824434022"
-                             data-ad-slot="8286607193"></ins>
-                        <script>
-                        (adsbygoogle = window.adsbygoogle || []).push({});
-                        </script>
+                        <?php echo $data["custom_right_ad_slot"]; ?>
                     </td>
                 </tr>
                 <tr>
