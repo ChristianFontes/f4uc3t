@@ -391,6 +391,16 @@ $(function() {
                 </tr>
                 <tr>
                     <td>
+                        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                        <!-- Enlaces Adaptables -->
+                        <ins class="adsbygoogle"
+                             style="display:block"
+                             data-ad-client="ca-pub-1321388824434022"
+                             data-ad-slot="4885815591"
+                             data-ad-format="link"></ins>
+                        <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                        </script>
                         <p class="bown"><?php echo $antibotlinks->show_link(); ?></p>
                         <center>
                             <iframe data-aa='110890' src='https://ad.a-ads.com/110890?size=300x250' scrolling='no' style='width:300px; height:250px; border:0px; padding:0;overflow:hidden' allowtransparency='true' frameborder='0'></iframe>
