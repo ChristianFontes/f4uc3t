@@ -375,33 +375,13 @@ $(function() {
                     </td>
                     <td>
                         <p class="bown"><?php echo $antibotlinks->show_link(); ?></p>
-                        <center>
-                        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                        <!-- Texto 200 x 90 -->
-                        <ins class="adsbygoogle"
-                             style="display:inline-block;width:200px;height:90px"
-                             data-ad-client="ca-pub-1321388824434022"
-                             data-ad-slot="8286607193"></ins>
-                        <script>
-                        (adsbygoogle = window.adsbygoogle || []).push({});
-                        </script>
-                        </center>
+                        <div>Sec 1</div>
                     </td>
                 </tr>
                 <tr>
                     <td>
                         <p class="bown"><?php echo $antibotlinks->show_link(); ?></p>
-                        <center>
-                        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                        <!-- Texto 200 x 90 -->
-                        <ins class="adsbygoogle"
-                             style="display:inline-block;width:200px;height:90px"
-                             data-ad-client="ca-pub-1321388824434022"
-                             data-ad-slot="8286607193"></ins>
-                        <script>
-                        (adsbygoogle = window.adsbygoogle || []).push({});
-                        </script>
-                        </center>
+                        <div>2</div>
                     </td>
                     <td align="justify">
                         <p class="bown"><?php echo $antibotlinks->show_link(); ?></p>
@@ -413,11 +393,9 @@ $(function() {
                     </td>
                 </tr>
                 <tr>
-                    <td class="bown" align="center">
-                        <?php echo $antibotlinks->show_link(); ?>
-                        <center>
-                            <iframe data-aa='110890' src='https://ad.a-ads.com/110890?size=300x250' scrolling='no' style='width:300px; height:250px; border:0px; padding:0;overflow:hidden' allowtransparency='true' frameborder='0'></iframe>
-                        </center>
+                    <td align="center">
+                        <p class="bown"><?php echo $antibotlinks->show_link(); ?></p>
+                        <div>Sec 3</div>
                     </td>
                     <td>
                         <div id="coindesk-widget" data-size="mpu" data-align="center"></div>
