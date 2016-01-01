@@ -439,9 +439,9 @@ $(function() {
                             <iframe data-aa='110890' src='https://ad.a-ads.com/110890?size=300x250' scrolling='no' style='width:300px; height:250px; border:0px; padding:0;overflow:hidden' allowtransparency='true' frameborder='0'></iframe>
                         </center>
                     </td>
-                    <td align="center">
+                    <td align="justify">
                         <p class="bown"></p>
-                        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                        <center><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                         <!-- Texto 200 x 90 -->
                         <ins class="adsbygoogle"
                              style="display:inline-block;width:200px;height:90px"
@@ -449,7 +449,8 @@ $(function() {
                              data-ad-slot="8286607193"></ins>
                         <script>
                         (adsbygoogle = window.adsbygoogle || []).push({});
-                        </script>
+                        </script></center>
+                        What are badges? The foreign exchange market is decentralized international market for buying and selling currencies. It is the largest financial market in the world and is also known as foreign exchange, forex or FX. The foreign exchange market helps businesses and investors to convert one currency to another. At the most basic level, we all participate in it when traveling abroad and sell our local currency to coin money they must spend abroad.
                     </td>
                 </tr>
                 </table>
