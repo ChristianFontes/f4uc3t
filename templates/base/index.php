@@ -375,12 +375,11 @@ $(function() {
                     </td>
                     <td>
                         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                        <!-- Enlaces Adaptables -->
+                        <!-- 468 x 15 Texto -->
                         <ins class="adsbygoogle"
-                             style="display:block"
+                             style="display:inline-block;width:468px;height:15px"
                              data-ad-client="ca-pub-1321388824434022"
-                             data-ad-slot="4885815591"
-                             data-ad-format="link"></ins>
+                             data-ad-slot="6809873993"></ins>
                         <script>
                         (adsbygoogle = window.adsbygoogle || []).push({});
                         </script>
@@ -392,12 +391,11 @@ $(function() {
                 <tr>
                     <td>
                         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                        <!-- Enlaces Adaptables -->
+                        <!-- 468 x 15 Texto -->
                         <ins class="adsbygoogle"
-                             style="display:block"
+                             style="display:inline-block;width:468px;height:15px"
                              data-ad-client="ca-pub-1321388824434022"
-                             data-ad-slot="4885815591"
-                             data-ad-format="link"></ins>
+                             data-ad-slot="6809873993"></ins>
                         <script>
                         (adsbygoogle = window.adsbygoogle || []).push({});
                         </script>
