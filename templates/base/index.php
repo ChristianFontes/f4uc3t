@@ -324,7 +324,15 @@ $(function() {
                 <table style="width:100%">
                   <tr>
                     <td>
-                        <?php echo $data["custom_right_ad_slot"]; ?>
+                        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                        <!-- 300 x 250 Normal -->
+                        <ins class="adsbygoogle"
+                             style="display:inline-block;width:300px;height:250px"
+                             data-ad-client="ca-pub-1321388824434022"
+                             data-ad-slot="1694511595"></ins>
+                        <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                        </script>
                     </td>
                     <td>
                         <?php echo $data["captcha"]; ?>
@@ -382,15 +390,29 @@ $(function() {
                         <div id="coindesk-widget" data-size="mpu" data-align="center"></div>
                         <script type="text/javascript" src="//widget.coindesk.com/bpiticker/coindesk-widget.min.js?88e6a4"></script>
                         -->
-                        <?php echo $data["custom_right_ad_slot"]; ?>
+                        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                        <!-- 300 x 250 Normal -->
+                        <ins class="adsbygoogle"
+                             style="display:inline-block;width:300px;height:250px"
+                             data-ad-client="ca-pub-1321388824434022"
+                             data-ad-slot="1694511595"></ins>
+                        <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                        </script>
                     </td>
                 </tr>
                 <tr>
                     <td>
                         <p class="bown"><?php echo $antibotlinks->show_link(); ?></p>
-                        <center>
-                            <iframe data-aa='110890' src='https://ad.a-ads.com/110890?size=300x250' scrolling='no' style='width:300px; height:250px; border:0px; padding:0;overflow:hidden' allowtransparency='true' frameborder='0'></iframe>
-                        </center>
+                        <center><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                        <!-- 300 x 250 Normal -->
+                        <ins class="adsbygoogle"
+                             style="display:inline-block;width:300px;height:250px"
+                             data-ad-client="ca-pub-1321388824434022"
+                             data-ad-slot="1694511595"></ins>
+                        <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                        </script></center>
                     </td>
                     <td align="justify">
                         <p class="bown"><?php echo $antibotlinks->show_link(); ?></p>
@@ -402,8 +424,11 @@ $(function() {
                     </td>
                 </tr>
                 <tr>
-                    <td class="bown" align="center">
-                        <?php echo $antibotlinks->show_link(); ?>
+                    <td align="justify">
+                        <p class="bown"><?php echo $antibotlinks->show_link(); ?></p>
+                        <center>
+                            <iframe data-aa='110890' src='https://ad.a-ads.com/110890?size=300x250' scrolling='no' style='width:300px; height:250px; border:0px; padding:0;overflow:hidden' allowtransparency='true' frameborder='0'></iframe>
+                        </center>
                     </td>
                 </tr>
                 </table>
