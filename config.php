@@ -1,9 +1,11 @@
 <?php
-// Your password: mnQ25n4eZoFKRod. Make sure to save it
+// Your password: mnQ25n4eZoFKRod. King
+// Your password: pqorap44oSRSDPY. Like
+
 $dbhost = "mysql.hostinger.es";
-$dbuser = "u112085043_user";
+$dbuser = "u262227228_user";
 $dbpass = "ajZ0uSm4Q4V";
-$dbname = "u112085043_bd";
+$dbname = "u262227228_bd";
 $display_errors = false;
 $disable_admin_panel = false;
 
