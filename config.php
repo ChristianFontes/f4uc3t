@@ -11,7 +11,7 @@ $display_errors = false;
 $disable_admin_panel = false;
 */
 // Satoshistoday
-
+// nPiPMjC8d5ZfzTi
 $dbhost = "mysql.hostinger.es";
 $dbuser = "u756791466_user";
 $dbpass = "ajZ0uSm4Q4V";

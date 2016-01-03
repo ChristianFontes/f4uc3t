@@ -324,7 +324,7 @@ $(function() {
                 <table style="width:100%">
                   <tr>
                     <td>
-                        <!--
+                        
                         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                         <ins class="adsbygoogle"
                              style="display:inline-block;width:300px;height:250px"
@@ -333,7 +333,7 @@ $(function() {
                         <script>
                         (adsbygoogle = window.adsbygoogle || []).push({});
                         </script>
-                        -->
+                        
                     </td>
                     <td>
                         <?php echo $data["captcha"]; ?>
@@ -367,7 +367,7 @@ $(function() {
                 -->
                 <div>
                     <?php echo $antibotlinks->show_info(); ?>
-                    <!--
+                    
                     <center><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                     <ins class="adsbygoogle"
                          style="display:inline-block;width:728px;height:15px"
@@ -376,7 +376,7 @@ $(function() {
                     <script>
                     (adsbygoogle = window.adsbygoogle || []).push({});
                     </script></center> 
-                    -->
+                    
                 </div>
                 <br></br>
                 <table style="width:100%">
@@ -401,7 +401,7 @@ $(function() {
                         <div id="coindesk-widget" data-size="mpu" data-align="center"></div>
                         <script type="text/javascript" src="//widget.coindesk.com/bpiticker/coindesk-widget.min.js?88e6a4"></script>
                         -->
-                        <!--
+                        
                         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                         <ins class="adsbygoogle"
                              style="display:inline-block;width:300px;height:250px"
@@ -410,13 +410,13 @@ $(function() {
                         <script>
                         (adsbygoogle = window.adsbygoogle || []).push({});
                         </script>
-                        -->
+                        
                     </td>
                 </tr>
                 <tr>
                     <td>
                         <p class="bown"><?php echo $antibotlinks->show_link(); ?></p>
-                        <!--
+                        
                         <center><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                         <ins class="adsbygoogle"
                              style="display:inline-block;width:300px;height:250px"
@@ -425,7 +425,7 @@ $(function() {
                         <script>
                         (adsbygoogle = window.adsbygoogle || []).push({});
                         </script></center>
-                        -->
+                        
                     </td>
                     <td align="justify">
                         <p class="bown"><?php echo $antibotlinks->show_link(); ?></p>
@@ -445,7 +445,7 @@ $(function() {
                     </td>
                     <td align="justify">
                         <p class="bown"></p>
-                        <!--
+                        
                         <center><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                         <ins class="adsbygoogle"
                              style="display:inline-block;width:200px;height:90px"
@@ -454,7 +454,7 @@ $(function() {
                         <script>
                         (adsbygoogle = window.adsbygoogle || []).push({});
                         </script></center>
-                        -->
+                        
                         What are badges? The foreign exchange market is decentralized international market for buying and selling currencies. It is the largest financial market in the world and is also known as foreign exchange, forex or FX. The foreign exchange market helps businesses and investors to convert one currency to another. At the most basic level, we all participate in it when traveling abroad and sell our local currency to coin money they must spend abroad.
                     </td>
                 </tr>
@@ -493,7 +493,7 @@ $(function() {
                     </td>
                     <td>
                         <p class="bown"></p>
-                        <!--
+                        
                         <center>
                         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                         <ins class="adsbygoogle"
@@ -503,7 +503,7 @@ $(function() {
                         <script>
                         (adsbygoogle = window.adsbygoogle || []).push({});
                         </script></center>
-                        -->
+                        
                     </td>
                 </tr>
                 <tr>
@@ -531,7 +531,7 @@ $(function() {
                     </td>
                     <td align="justify">
                         <p class="bown"></p>
-                        <!--
+                        
                         <center><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                         <ins class="adsbygoogle"
                              style="display:inline-block;width:200px;height:90px"
@@ -540,7 +540,7 @@ $(function() {
                         <script>
                         (adsbygoogle = window.adsbygoogle || []).push({});
                         </script></center>
-                        -->
+                        
                         What are badges? The foreign exchange market is decentralized international market for buying and selling currencies. It is the largest financial market in the world and is also known as foreign exchange, forex or FX. The foreign exchange market helps businesses and investors to convert one currency to another. At the most basic level, we all participate in it when traveling abroad and sell our local currency to coin money they must spend abroad.
                     </td>
                 </tr>
