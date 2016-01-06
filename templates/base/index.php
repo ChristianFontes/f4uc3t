@@ -602,6 +602,9 @@ $(function() {
                         What are badges? The foreign exchange market is decentralized international market for buying and selling currencies. It is the largest financial market in the world and is also known as foreign exchange, forex or FX. The foreign exchange market helps businesses and investors to convert one currency to another. At the most basic level, we all participate in it when traveling abroad and sell our local currency to coin money they must spend abroad.
                     </td>
                 </tr>
+                <center>
+                    <a href="http://www.alexa.com/siteinfo/king-btc.com"><script type="text/javascript" src="http://xslt.alexa.com/site_stats/js/s/a?url=king-btc.com"></script></a>
+                </center>
                 </table>
 
         <?php break; case "user_page": ?>

@@ -29,7 +29,7 @@ class antibotlinks {
       $this->link_count=5;
     }
     $word_universe=array();
-    $word_universe[]=array('one'=>'1', 'two'=>'2', 'three'=>'3', 'four'=>'4', 'five'=>'5', 'six'=>'6', 'seven'=>'7', 'eight'=>'8', 'nine'=>'9', 'ten'=>'10');
+    $word_universe[]=array('one'=>'7-6', 'two'=>'1+1', 'three'=>'1*3', 'four'=>'9-5', 'five'=>'5', 'six'=>'3*3', 'seven'=>'7', 'eight'=>'2+6', 'nine'=>'10-1', 'ten'=>'2*5');
     $word_universe[]=array('1'=>'one', '2'=>'two', '3'=>'three', '4'=>'four', '5'=>'five', '6'=>'six', '7'=>'seven', '8'=>'eight', '9'=>'nine', '10'=>'ten');
     $word_universe[]=array('1'=>'I', '2'=>'II', '3'=>'III', '4'=>'IV', '5'=>'V', '6'=>'VI', '7'=>'VII', '8'=>'VIII', '9'=>'IX', '10'=>'X');
     $word_universe[]=array('cat'=>'c@t', 'dog'=>'d0g', 'lion'=>'li0n', 'tiger'=>'t!ger', 'monkey'=>'m0nkey', 'elephant'=>'e1eph@nt', 'cow'=>'c0w', 'fox'=>'f0x', 'mouse'=>'m0use', 'ant'=>'@nt');
