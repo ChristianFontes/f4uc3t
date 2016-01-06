@@ -91,6 +91,26 @@ text-align: center;
 
 }
 
+.taw0 .rh3 .rhbutton {
+    background: #924d13;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border-width: 0px;
+    height: 49px;
+    min-width: 142px;
+    max-width: 296px;
+}
+.rhbutton {
+    cursor: pointer;
+    display: inline-block;
+    margin: 0;
+    text-align: center;
+    transition: position, z-index, opacity;
+    transition-delay: 0.3s;
+    visibility: visible;
+    white-space: nowrap;
+}
+
 .main-input{
 display: block;
 margin: 5px 0;
@@ -261,7 +281,7 @@ $(function() {
     $('#antibotlinks').val($('#antibotlinks').val()+' '+$(this).attr('rel'));
     if(clicks == <?php echo $antibotlinks->get_link_count(); ?>) {
       var rand = Math.floor((Math.random() * clicks) + 1);
-      var button = '<input type="submit" class="btn btn-primary btn-lg" value="Get Reward!">';
+      var button = '<input type="submit" class="rhbutton" value=" > ">';
       var z=0;
       $('.antibotlinks').each(function(){
         z++;
