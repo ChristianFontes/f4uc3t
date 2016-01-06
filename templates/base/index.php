@@ -325,11 +325,11 @@ $(function() {
                   <tr>
                     <td>
                         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                        <!-- Banner Negro -->
+                        <!-- 300 Negro Naranja -->
                         <ins class="adsbygoogle"
                              style="display:inline-block;width:300px;height:250px"
                              data-ad-client="ca-pub-1321388824434022"
-                             data-ad-slot="2130178793"></ins>
+                             data-ad-slot="3467311194"></ins>
                         <script>
                         (adsbygoogle = window.adsbygoogle || []).push({});
                         </script>
@@ -367,14 +367,15 @@ $(function() {
                 <div>
                     <?php echo $antibotlinks->show_info(); ?>
                     
-                    <center><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                    <!-- Texto 728 Fondo negro -->
                     <ins class="adsbygoogle"
                          style="display:inline-block;width:728px;height:15px"
                          data-ad-client="ca-pub-1321388824434022"
-                         data-ad-slot="4774737593"></ins>
+                         data-ad-slot="6560378394"></ins>
                     <script>
                     (adsbygoogle = window.adsbygoogle || []).push({});
-                    </script></center> 
+                    </script> 
                     
                 </div>
                 <br></br>
@@ -402,11 +403,11 @@ $(function() {
                         -->
                         
                         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                        <!-- Banner Negro -->
+                        <!-- 300 Negro Naranja -->
                         <ins class="adsbygoogle"
                              style="display:inline-block;width:300px;height:250px"
                              data-ad-client="ca-pub-1321388824434022"
-                             data-ad-slot="2130178793"></ins>
+                             data-ad-slot="3467311194"></ins>
                         <script>
                         (adsbygoogle = window.adsbygoogle || []).push({});
                         </script>
@@ -418,11 +419,11 @@ $(function() {
                         <p class="bown"><?php echo $antibotlinks->show_link(); ?></p>
                         
                         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                        <!-- Banner Negro -->
+                        <!-- 300 Negro Naranja -->
                         <ins class="adsbygoogle"
                              style="display:inline-block;width:300px;height:250px"
                              data-ad-client="ca-pub-1321388824434022"
-                             data-ad-slot="2130178793"></ins>
+                             data-ad-slot="3467311194"></ins>
                         <script>
                         (adsbygoogle = window.adsbygoogle || []).push({});
                         </script>
@@ -447,14 +448,17 @@ $(function() {
                     <td align="justify">
                         <p class="bown"></p>
                         
-                        <center><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                        <ins class="adsbygoogle"
-                             style="display:inline-block;width:200px;height:90px"
-                             data-ad-client="ca-pub-1321388824434022"
-                             data-ad-slot="8286607193"></ins>
-                        <script>
-                        (adsbygoogle = window.adsbygoogle || []).push({});
-                        </script></center>
+                        <center>
+                            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                            <!-- 468 Text negro naranja -->
+                            <ins class="adsbygoogle"
+                                 style="display:inline-block;width:468px;height:15px"
+                                 data-ad-client="ca-pub-1321388824434022"
+                                 data-ad-slot="4944044398"></ins>
+                            <script>
+                            (adsbygoogle = window.adsbygoogle || []).push({});
+                            </script>
+                        </center>
                         
                         What are badges? The foreign exchange market is decentralized international market for buying and selling currencies. It is the largest financial market in the world and is also known as foreign exchange, forex or FX. The foreign exchange market helps businesses and investors to convert one currency to another. At the most basic level, we all participate in it when traveling abroad and sell our local currency to coin money they must spend abroad.
                     </td>
