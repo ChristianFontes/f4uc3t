@@ -337,7 +337,6 @@ $(function() {
         </ul>
         <table style="width:100%">
         <td><?php echo $data["custom_left_ad_slot"]; ?></td>
-        <td><center><?php echo $antibotlinks->show_link(); ?></center></td>
         </table>
         <br>
     </div>
@@ -551,14 +550,17 @@ $(function() {
                         <p class="bown"></p>
                         
                         <center>
-                        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                        <ins class="adsbygoogle"
-                             style="display:inline-block;width:300px;height:250px"
-                             data-ad-client="ca-pub-1321388824434022"
-                             data-ad-slot="1694511595"></ins>
-                        <script>
-                        (adsbygoogle = window.adsbygoogle || []).push({});
-                        </script></center>
+                        <script type="text/javascript">
+                            google_ad_client = "ca-pub-1321388824434022";
+                            google_ad_slot = "3467311194";
+                            google_ad_width = 300;
+                            google_ad_height = 250;
+                        </script>
+                        <!-- 300 Negro Naranja -->
+                        <script type="text/javascript"
+                        src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+                        </script>
+                        </center>
                         
                     </td>
                 </tr>
