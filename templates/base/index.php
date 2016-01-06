@@ -146,21 +146,45 @@ font-size: 16px;
 :-ms-input-placeholder { color: #9C1E2D; }
 input:-moz-placeholder { color: #9C1E2D; }
 
-.ref{
-background: #354455;
-padding: 12px 18px;
-font-size: 16px;
-font-weight: 300;
-border: 2px outset #7A8EA1;
-border-radius: 10px;
-margin-top: 5%;
-margin-bottom: 0;
+.btn-re {
+    -moz-box-shadow: 0px 10px 14px -7px #000000;
+    -webkit-box-shadow: 0px 10px 14px -7px #000000;
+    box-shadow: 0px 10px 14px -7px #000000;
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #924c13), color-stop(1, #924c13));
+    background:-moz-linear-gradient(top, #924c13 5%, #924c13 100%);
+    background:-webkit-linear-gradient(top, #924c13 5%, #924c13 100%);
+    background:-o-linear-gradient(top, #924c13 5%, #924c13 100%);
+    background:-ms-linear-gradient(top, #924c13 5%, #924c13 100%);
+    background:linear-gradient(to bottom, #924c13 5%, #924c13 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#924c13', endColorstr='#924c13',GradientType=0);
+    background-color:#924c13;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    border:1px solid #924c13;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Courier New;
+    font-size:23px;
+    font-weight:bold;
+    padding:10px 60px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #924c13;
 }
-
-.ref .t{
-display: block;
-font-weight: 500;
-color: #7A8EA1;
+.btn-re:hover {
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #924c13), color-stop(1, #924c13));
+    background:-moz-linear-gradient(top, #924c13 5%, #924c13 100%);
+    background:-webkit-linear-gradient(top, #924c13 5%, #924c13 100%);
+    background:-o-linear-gradient(top, #924c13 5%, #924c13 100%);
+    background:-ms-linear-gradient(top, #924c13 5%, #924c13 100%);
+    background:linear-gradient(to bottom, #924c13 5%, #924c13 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#924c13', endColorstr='#924c13',GradientType=0);
+    background-color:#924c13;
+}
+.btn-re:active {
+    position:relative;
+    top:1px;
 }
 
 #footer{
@@ -281,7 +305,7 @@ $(function() {
     $('#antibotlinks').val($('#antibotlinks').val()+' '+$(this).attr('rel'));
     if(clicks == <?php echo $antibotlinks->get_link_count(); ?>) {
       var rand = Math.floor((Math.random() * clicks) + 1);
-      var button = '<input type="submit" class="rhbutton" value=" > ">';
+      var button = '<input type="submit" class="btn-re" value=" > ">';
       var z=0;
       $('.antibotlinks').each(function(){
         z++;
