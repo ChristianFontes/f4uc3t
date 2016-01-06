@@ -324,16 +324,15 @@ $(function() {
                 <table style="width:100%">
                   <tr>
                     <td>
-                        
                         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                        <!-- Banner Negro -->
                         <ins class="adsbygoogle"
                              style="display:inline-block;width:300px;height:250px"
                              data-ad-client="ca-pub-1321388824434022"
-                             data-ad-slot="1694511595"></ins>
+                             data-ad-slot="2130178793"></ins>
                         <script>
                         (adsbygoogle = window.adsbygoogle || []).push({});
                         </script>
-                        
                     </td>
                     <td>
                         <?php echo $data["captcha"]; ?>
@@ -403,10 +402,11 @@ $(function() {
                         -->
                         
                         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                        <!-- Banner Negro -->
                         <ins class="adsbygoogle"
                              style="display:inline-block;width:300px;height:250px"
                              data-ad-client="ca-pub-1321388824434022"
-                             data-ad-slot="1694511595"></ins>
+                             data-ad-slot="2130178793"></ins>
                         <script>
                         (adsbygoogle = window.adsbygoogle || []).push({});
                         </script>
@@ -417,14 +417,15 @@ $(function() {
                     <td>
                         <p class="bown"><?php echo $antibotlinks->show_link(); ?></p>
                         
-                        <center><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                        <!-- Banner Negro -->
                         <ins class="adsbygoogle"
                              style="display:inline-block;width:300px;height:250px"
                              data-ad-client="ca-pub-1321388824434022"
-                             data-ad-slot="1694511595"></ins>
+                             data-ad-slot="2130178793"></ins>
                         <script>
                         (adsbygoogle = window.adsbygoogle || []).push({});
-                        </script></center>
+                        </script>
                         
                     </td>
                     <td align="justify">
