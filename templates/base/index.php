@@ -44,7 +44,7 @@ background: #415160;
 border-radius:25px;
 color: #B7C9DA;
 box-shadow: 0 0 10px #1F1F1F;
-background-image:url('http://www.top-bit.com/images/blackbitcoin.jpg');
+background: #000000;
 background-attachment: fixed;
 }
 hr { color: #b7c9da; }
