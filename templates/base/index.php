@@ -47,9 +47,12 @@ box-shadow: 0 0 10px #1F1F1F;
 background: #000000;
 background-attachment: fixed;
 }
-hr { color: #b7c9da; }
+hr{ 
+color: #b7c9da;
+}
+
 #page a{
-color: #000;
+color: #E1771E;
 }
 
 #page-cols{
@@ -333,6 +336,7 @@ $(function() {
         <?php endforeach; ?>
         </ul>
         <?php echo $data["custom_left_ad_slot"]; ?>
+        <center><?php echo $antibotlinks->show_link(); ?></center>
         <br>
     </div>
         <div id="center">
@@ -377,6 +381,7 @@ $(function() {
                         <script>
                         (adsbygoogle = window.adsbygoogle || []).push({});
                         </script>
+                        <center><?php echo $antibotlinks->show_link(); ?></center>
                     </td>
                     <td>
                         <?php echo $data["captcha"]; ?>
@@ -426,7 +431,7 @@ $(function() {
                 <table style="width:100%">
                 <tr>
                     <td align="justify">
-                        <p class="bown"><?php echo $antibotlinks->show_link(); ?></p>
+                        <p class="bown"></p>
                         What is a faucet?
 
                         A faucet is a site that allows people to earn bitcoin (BTC) virtual currency by completing simple 
@@ -440,7 +445,7 @@ $(function() {
                         purchase or from a faucet, you will first need to have a bitcoin wallet.
                     </td>
                     <td>
-                        <p class="bown"><?php echo $antibotlinks->show_link(); ?></p>
+                        <p class="bown"></p>
                         <!--
                         <div id="coindesk-widget" data-size="mpu" data-align="center"></div>
                         <script type="text/javascript" src="//widget.coindesk.com/bpiticker/coindesk-widget.min.js?88e6a4"></script>
@@ -455,12 +460,12 @@ $(function() {
                         <script>
                         (adsbygoogle = window.adsbygoogle || []).push({});
                         </script>
-                        
+                        <center><?php echo $antibotlinks->show_link(); ?></center>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <p class="bown"><?php echo $antibotlinks->show_link(); ?></p>
+                        <p class="bown"></p>
                         
                         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                         <!-- 300 Negro Naranja -->
@@ -471,10 +476,10 @@ $(function() {
                         <script>
                         (adsbygoogle = window.adsbygoogle || []).push({});
                         </script>
-                        
+                        <center><?php echo $antibotlinks->show_link(); ?></center>
                     </td>
                     <td align="justify">
-                        <p class="bown"><?php echo $antibotlinks->show_link(); ?></p>
+                        <p class="bown"></p>
                         What is bitcoin?
 
                         Bitcoin is a payment system introduced as open-source software in 2009 by developer Satoshi Nakamoto. The payments in the system are recorded in a public ledger using its own unit of account, which is also called bitcoin. Payments work peer-to-peer without a central repository or single administrator, which has led the US Treasury to call bitcoin a decentralized virtual currency. Although its status as a currency is disputed, media reports often refer to bitcoin as a cryptocurrency or digital currency.
@@ -484,7 +489,7 @@ $(function() {
                 </tr>
                 <tr>
                     <td align="justify">
-                        <p class="bown"><?php echo $antibotlinks->show_link(); ?></p>
+                        <p class="bown"></p>
                         <center>
                             <iframe data-aa='110890' src='https://ad.a-ads.com/110890?size=300x250' scrolling='no' style='width:300px; height:250px; border:0px; padding:0;overflow:hidden' allowtransparency='true' frameborder='0'></iframe>
                         </center>
