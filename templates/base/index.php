@@ -335,7 +335,7 @@ $(function() {
             <li><a href="?p=<?php echo $page["url_name"]; ?>"><?php echo $page["name"]; ?></a></li>
         <?php endforeach; ?>
         </ul>
-        <table>
+        <table style="width:100%">
         <td><?php echo $data["custom_left_ad_slot"]; ?></td>
         <td><center><?php echo $antibotlinks->show_link(); ?></center></td>
         </table>
