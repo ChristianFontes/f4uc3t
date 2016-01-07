@@ -426,18 +426,18 @@ $(function() {
                 </div>
                 -->
                 <div>
-                    <table style="width:100%">
+                    <table style="width:60%">
                     <tr>
                         <td>
-                        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                        <!-- Texto 728 Fondo negro -->
-                        <ins class="adsbygoogle"
-                             style="display:inline-block;width:728px;height:15px"
-                             data-ad-client="ca-pub-1321388824434022"
-                             data-ad-slot="6560378394"></ins>
-                        <script>
-                        (adsbygoogle = window.adsbygoogle || []).push({});
-                        </script>
+                            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                            <!-- Texto 728 Fondo negro -->
+                            <ins class="adsbygoogle"
+                                 style="display:inline-block;width:728px;height:15px"
+                                 data-ad-client="ca-pub-1321388824434022"
+                                 data-ad-slot="6560378394"></ins>
+                            <script>
+                            (adsbygoogle = window.adsbygoogle || []).push({});
+                            </script>
                         </td>
                         <td>
                             <p align="left" class="link" style="display:block;"><?php echo $antibotlinks->show_link(); ?></p>
