@@ -426,7 +426,7 @@ $(function() {
                 </div>
                 -->
                 <div>
-                    <table style="width:60%">
+                    <table align="center" style="width:60%">
                     <tr>
                         <td>
                             <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -511,8 +511,9 @@ $(function() {
                     </td>
                     <td align="justify">
                         <p class="bown"></p>
-                        
-                        <center>
+                        <table align="center" style="width:60%">
+                    <tr>
+                        <td>
                             <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                             <!-- 468 Text negro naranja -->
                             <ins class="adsbygoogle"
@@ -522,9 +523,11 @@ $(function() {
                             <script>
                             (adsbygoogle = window.adsbygoogle || []).push({});
                             </script>
-                        </center>
-                        
+                        </td>
+                        <td>
                         What are badges? The foreign exchange market is decentralized international market for buying and selling currencies. It is the largest financial market in the world and is also known as foreign exchange, forex or FX. The foreign exchange market helps businesses and investors to convert one currency to another. At the most basic level, we all participate in it when traveling abroad and sell our local currency to coin money they must spend abroad.
+                        </td>
+                    </tr>
                     </td>
                 </tr>
                 </table>
