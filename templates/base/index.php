@@ -428,6 +428,7 @@ $(function() {
                 <div>
                     <table style="width:100%">
                     <tr>
+                        <td>
                         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                         <!-- Texto 728 Fondo negro -->
                         <ins class="adsbygoogle"
@@ -437,11 +438,11 @@ $(function() {
                         <script>
                         (adsbygoogle = window.adsbygoogle || []).push({});
                         </script>
+                        </td>
+                        <td>
+                            <center class="link" style="display:block;"><?php echo $antibotlinks->show_link(); ?></center>
+                        </td>
                     </tr>
-                    <tr>
-                        <center class="link" style="display:block;"><?php echo $antibotlinks->show_link(); ?></center>
-                    </tr>
-                    </table>
                 </div>
                 <br></br>
                 <table style="width:100%">
