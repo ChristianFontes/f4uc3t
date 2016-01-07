@@ -33,8 +33,10 @@ margin: 0 auto;
 }
 
 p {
- font-size: x-small;
- color: #b7c9da;
+padding: 0;
+margin: 0;
+font-size: x-small;
+color: #b7c9da;
 }
 
 #page{
