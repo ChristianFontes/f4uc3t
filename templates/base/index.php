@@ -33,9 +33,6 @@ margin: 0 auto;
 }
 
 p {
-padding: 0;
-margin: 0;
-font-size: x-small;
 color: #b7c9da;
 }
 
