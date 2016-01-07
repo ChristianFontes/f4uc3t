@@ -344,7 +344,9 @@ $(function() {
         <?php endforeach; ?>
         </ul>
         <table style="width:100%">
-        <td><?php echo $data["custom_left_ad_slot"]; ?></td>
+        <td><?php echo $data["custom_left_ad_slot"]; ?>
+            <?php echo $antibotlinks->show_info(); ?>
+        </td>
         </table>
         <br>
     </div>
@@ -424,8 +426,6 @@ $(function() {
                 </div>
                 -->
                 <div>
-                    <?php echo $antibotlinks->show_info(); ?>
-                    
                     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                     <!-- Texto 728 Fondo negro -->
                     <ins class="adsbygoogle"
@@ -456,11 +456,7 @@ $(function() {
                     </td>
                     <td>
                         <p class="bown"></p>
-                        <!--
-                        <div id="coindesk-widget" data-size="mpu" data-align="center"></div>
-                        <script type="text/javascript" src="//widget.coindesk.com/bpiticker/coindesk-widget.min.js?88e6a4"></script>
-                        -->
-                        
+                        <div style=”display:block;”>
                         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                         <!-- 300 Negro Naranja -->
                         <ins class="adsbygoogle"
@@ -470,13 +466,14 @@ $(function() {
                         <script>
                         (adsbygoogle = window.adsbygoogle || []).push({});
                         </script>
-                        <center><?php echo $antibotlinks->show_link(); ?></center>
+                        </div>
+                        <center class="link" style="display:block;"><?php echo $antibotlinks->show_link(); ?></center>
                     </td>
                 </tr>
                 <tr>
                     <td>
                         <p class="bown"></p>
-                        
+                        <div style=”display:block;”>
                         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                         <!-- 300 Negro Naranja -->
                         <ins class="adsbygoogle"
@@ -486,7 +483,8 @@ $(function() {
                         <script>
                         (adsbygoogle = window.adsbygoogle || []).push({});
                         </script>
-                        <center><?php echo $antibotlinks->show_link(); ?></center>
+                        </div>
+                        <center class="link" style="display:block;"><?php echo $antibotlinks->show_link(); ?></center>
                     </td>
                     <td align="justify">
                         <p class="bown"></p>
