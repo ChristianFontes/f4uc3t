@@ -380,7 +380,7 @@ $(function() {
             <br></br>
                 <table style="width:100%">
                   <tr>
-                    <td>
+                    <td><div style=”display:block;”>
                         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                         <!-- 300 Negro Naranja -->
                         <ins class="adsbygoogle"
@@ -390,6 +390,7 @@ $(function() {
                         <script>
                         (adsbygoogle = window.adsbygoogle || []).push({});
                         </script>
+                        </div>
                         <center class="link" style="display:block;"><?php echo $antibotlinks->show_link(); ?></center>
                     </td>
                     <td>
