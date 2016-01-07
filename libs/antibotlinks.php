@@ -30,8 +30,8 @@ class antibotlinks {
     }
     $word_universe=array();
     $word_universe[]=array('one'=>'7-6', 'two'=>'1+1', 'three'=>'1*3', 'four'=>'9-5', 'five'=>'5', 'six'=>'3*3', 'seven'=>'7', 'eight'=>'2+6', 'nine'=>'10-1', 'ten'=>'2*5');
-    $word_universe[]=array('1'=>'one', '2'=>'two', '3'=>'three', '4'=>'four', '5'=>'five', '6'=>'six', '7'=>'seven', '8'=>'eight', '9'=>'nine', '10'=>'ten');
-    $word_universe[]=array('1'=>'I', '2'=>'II', '3'=>'III', '4'=>'IV', '5'=>'V', '6'=>'VI', '7'=>'VII', '8'=>'VIII', '9'=>'IX', '10'=>'X');
+    $word_universe[]=array('2-1'=>'one', '1+1'=>'two', '3*1'=>'three', '2*2'=>'four', '10-5'=>'five', '2*3'=>'six', '3+4'=>'seven', '10-2'=>'eight', '9*1'=>'nine', '5*2'=>'ten');
+    $word_universe[]=array('0n3'=>'I', 'tW0'=>'II', '2+1'=>'III', 'f0uR'=>'IV', '3+2'=>'V', 'S1X'=>'VI', '10-3'=>'VII', '2*4'=>'VIII', '10-1'=>'IX', '10'=>'X');
     $word_universe[]=array('cat'=>'c@t', 'dog'=>'d0g', 'lion'=>'li0n', 'tiger'=>'t!ger', 'monkey'=>'m0nkey', 'elephant'=>'e1eph@nt', 'cow'=>'c0w', 'fox'=>'f0x', 'mouse'=>'m0use', 'ant'=>'@nt');
     $word_universe[]=array('2-1'=>'1', '1+1'=>'2', '1+2'=>'3', '2+2'=>'4', '3+2'=>'5', '2+4'=>'6', '3+4'=>'7', '4+4'=>'8', '1+8'=>'9', '5+5'=>'10');
     $word_universe[]=array('1'=>'3-2', '2'=>'8-6', '3'=>'1+2', '4'=>'3+1', '5'=>'9-4', '6'=>'3+3', '7'=>'6+1', '8'=>'2*4', '9'=>'3+6', '10'=>'2+8');
@@ -61,7 +61,7 @@ class antibotlinks {
       } while (isset($used_keywords_array[$keyword]));
       $used_keywords_array[$keyword]=1;
 
-      $antibotlinks_array['links'][$z]['link']='<a href="/" rel="'.$random_number.'" class="antibotlinks">Anti-Bot ( '.$universe[$keyword].' )</a>';
+      $antibotlinks_array['links'][$z]['link']='<a href="/" rel="'.$random_number.'" class="antibotlinks">'.$universe[$keyword].'</a>';
       $antibotlinks_array['links'][$z]['keyword']=$keyword;
     }
 

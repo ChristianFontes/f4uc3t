@@ -33,6 +33,7 @@ margin: 0 auto;
 }
 
 p {
+ font-size: x-small;
  color: #b7c9da;
 }
 
@@ -44,7 +45,7 @@ background: #415160;
 border-radius:25px;
 color: #B7C9DA;
 box-shadow: 0 0 10px #1F1F1F;
-background: #F1F1F1;
+background: #000000;
 background-attachment: fixed;
 }
 hr{ 
