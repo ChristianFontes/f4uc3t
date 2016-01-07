@@ -511,7 +511,7 @@ $(function() {
                     </td>
                     <td align="justify">
                         <p class="bown"></p>
-                        <table align="center" style="width:60%">
+                        <table align="center">
                         <tr>
                             <td>
                                 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
