@@ -345,7 +345,7 @@ $(function() {
         </ul>
         <table style="width:100%">
         <td><?php echo $data["custom_left_ad_slot"]; ?>
-            <?php echo $antibotlinks->show_info(); ?>
+        <center><?php echo $antibotlinks->show_info(); ?></center>
         </td>
         </table>
         <br>
