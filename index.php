@@ -2196,7 +2196,7 @@ if($pass) {
             $antibotlinks->generate(5, true);// number of links once they fail to solve min 3 - max 5, the second param MUST BE true
           }
         } else {
-          $antibotlinks->generate(3);// initial number of links min 3 - max 5
+          $antibotlinks->generate(5);// initial number of links min 3 - max 5
         }
 
         if($data['captcha'] && $data['apikey'] && $data['rewards'])
