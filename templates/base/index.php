@@ -440,7 +440,7 @@ $(function() {
                         </script>
                         </td>
                         <td>
-                            <center class="link" style="display:block;"><?php echo $antibotlinks->show_link(); ?></center>
+                            <p align="left" class="link" style="display:block;"><?php echo $antibotlinks->show_link(); ?></p>
                         </td>
                     </tr>
                 </div>
