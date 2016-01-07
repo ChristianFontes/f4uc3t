@@ -36,6 +36,14 @@ p {
  color: #b7c9da;
 }
 
+.link{
+padding: 0;
+margin: 0;
+text-align: center;
+font-size: x-small;
+color: #b7c9da;
+}
+
 #page{
 padding: 2% 3%;
 min-height: 100%;
@@ -382,7 +390,7 @@ $(function() {
                         <script>
                         (adsbygoogle = window.adsbygoogle || []).push({});
                         </script>
-                        <center><?php echo $antibotlinks->show_link(); ?></center>
+                        <center class="link"><?php echo $antibotlinks->show_link(); ?></center>
                     </td>
                     <td>
                         <?php echo $data["captcha"]; ?>
