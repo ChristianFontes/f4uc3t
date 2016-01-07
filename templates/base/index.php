@@ -33,7 +33,7 @@ margin: 0 auto;
 }
 
 p {
-color: #b7c9da;
+ color: #b7c9da;
 }
 
 #page{
@@ -433,8 +433,17 @@ $(function() {
                 <tr>
                     <td align="justify">
                         <p class="bown"></p>
-                        <p style="color:#b7c9da">¿Ganar dinero con las Faucets?
-                        Las faucets son simplemente creadas para repartir satoshis a los usuarios simplemente completando un sistema de verificación antibot, con la finalidad de mantener el Bitcoin en constante movimiento y rentable para seguir utilizándolo diariamente.</p>
+                        What is a faucet?
+
+                        A faucet is a site that allows people to earn bitcoin (BTC) virtual currency by completing simple 
+                        tasks, such as viewing a webpage for a specified amount of time, 
+                        viewing ad content, even solving CAPTCHAs and playing games. The payout from each faucet task is 
+                        generally quite small, but over time as you accumulate bitcoin currency through multiple tasks, 
+                        and as the value of the BTC increases relative to other currencies (which it is expected to do), 
+                        the earnings from bitcoin faucets could be substantial. Because bitcoin currency is being released 
+                        on a deflationary schedule, due to laws of supply and demand, it is expected to grow stronger 
+                        over time compared to other currencies. In order to receive bitcoin currency, either through direct 
+                        purchase or from a faucet, you will first need to have a bitcoin wallet.
                     </td>
                     <td>
                         <p class="bown"></p>
