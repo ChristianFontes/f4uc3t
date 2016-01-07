@@ -44,7 +44,7 @@ background: #415160;
 border-radius:25px;
 color: #B7C9DA;
 box-shadow: 0 0 10px #1F1F1F;
-background: #000000;
+background: #F1F1F1;
 background-attachment: fixed;
 }
 hr{ 
@@ -374,11 +374,12 @@ $(function() {
                   <tr>
                     <td>
                         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                        <!-- 300 Negro Naranja -->
+                        <!-- Adaptable satoshis -->
                         <ins class="adsbygoogle"
-                             style="display:inline-block;width:300px;height:250px"
+                             style="display:block"
                              data-ad-client="ca-pub-1321388824434022"
-                             data-ad-slot="3467311194"></ins>
+                             data-ad-slot="5450245191"
+                             data-ad-format="auto"></ins>
                         <script>
                         (adsbygoogle = window.adsbygoogle || []).push({});
                         </script>
