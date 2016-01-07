@@ -390,7 +390,7 @@ $(function() {
                         <script>
                         (adsbygoogle = window.adsbygoogle || []).push({});
                         </script>
-                        <center class="link"><?php echo $antibotlinks->show_link(); ?></center>
+                        <center class="link" style="display:block;"><?php echo $antibotlinks->show_link(); ?></center>
                     </td>
                     <td>
                         <?php echo $data["captcha"]; ?>
