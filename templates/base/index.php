@@ -374,12 +374,11 @@ $(function() {
                   <tr>
                     <td>
                         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                        <!-- Adaptable satoshis -->
+                        <!-- 300 Negro Naranja -->
                         <ins class="adsbygoogle"
-                             style="display:block"
+                             style="display:inline-block;width:300px;height:250px"
                              data-ad-client="ca-pub-1321388824434022"
-                             data-ad-slot="5450245191"
-                             data-ad-format="auto"></ins>
+                             data-ad-slot="3467311194"></ins>
                         <script>
                         (adsbygoogle = window.adsbygoogle || []).push({});
                         </script>
