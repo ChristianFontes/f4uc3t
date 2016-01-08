@@ -525,8 +525,10 @@ $(function() {
                                 </script>
                             </td>
                         </tr>
-                        <tr style="color:#b7c9da">
+                        <tr>
+                            <p style="color:#b7c9da">
                             What are badges? The foreign exchange market is decentralized international market for buying and selling currencies. It is the largest financial market in the world and is also known as foreign exchange, forex or FX. The foreign exchange market helps businesses and investors to convert one currency to another. At the most basic level, we all participate in it when traveling abroad and sell our local currency to coin money they must spend abroad.
+                            </p>
                         </tr>
                         <center class="link" style="display:block;"><?php echo $antibotlinks->show_link(); ?></center>
                         </table>
