@@ -48,7 +48,7 @@ color: #b7c9da;
 padding: 2% 3%;
 min-height: 100%;
 border: 3px outset #2B3947;
-background: #415160;
+background: #ffffff;
 border-radius:25px;
 color: #B7C9DA;
 box-shadow: 0 0 10px #1F1F1F;
