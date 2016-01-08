@@ -33,7 +33,7 @@ margin: 0 auto;
 }
 
 p {
- color: #b7c9da;
+ color: #000;
 }
 
 .link{
@@ -50,9 +50,9 @@ min-height: 100%;
 border: 3px outset #2B3947;
 background: #ffffff;
 border-radius:25px;
-color: #B7C9DA;
+color: #000;
 box-shadow: 0 0 10px #1F1F1F;
-background: #000000;
+background: #fff;
 background-attachment: fixed;
 }
 hr{ 
@@ -430,12 +430,13 @@ $(function() {
                     <table align="center" style="width:60%">
                     <tr>
                         <td>
+                        <!-- TEXTO 728 X 15 -->
                             <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                            <!-- Texto 728 Fondo negro -->
+                            <!-- 728 x 15 Blanco y Negro -->
                             <ins class="adsbygoogle"
                                  style="display:inline-block;width:728px;height:15px"
                                  data-ad-client="ca-pub-1321388824434022"
-                                 data-ad-slot="6560378394"></ins>
+                                 data-ad-slot="3103724391"></ins>
                             <script>
                             (adsbygoogle = window.adsbygoogle || []).push({});
                             </script>
@@ -529,9 +530,7 @@ $(function() {
                             </td>
                         </tr>
                         <tr>
-                            <p style="color:black">
                             What are badges? The foreign exchange market is decentralized international market for buying and selling currencies. It is the largest financial market in the world and is also known as foreign exchange, forex or FX. The foreign exchange market helps businesses and investors to convert one currency to another. At the most basic level, we all participate in it when traveling abroad and sell our local currency to coin money they must spend abroad.
-                            </p>
                         </tr>
                         <center class="link" style="display:block;"><?php echo $antibotlinks->show_link(); ?></center>
                         </table>
