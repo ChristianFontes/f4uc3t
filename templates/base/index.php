@@ -16,7 +16,7 @@ padding: 0;
 margin: 0;
 font-family: 'Roboto', sans-serif;
 color: #ffffff;
-background: #151F2A;
+background: #ffffff;
 background-image:url('http://www.top-bit.com/images/dark-blocks-blue.jpg');
 background-repeat: repeat-x;
 background-attachment: fixed;
@@ -383,12 +383,13 @@ $(function() {
                 <table style="width:100%">
                   <tr>
                     <td><div style=”display:block;”>
+                    <!-- Anuncio de 300 x 250px-->
                         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                        <!-- 300 Negro Naranja -->
+                        <!-- 300 Blanco y Azul -->
                         <ins class="adsbygoogle"
                              style="display:inline-block;width:300px;height:250px"
                              data-ad-client="ca-pub-1321388824434022"
-                             data-ad-slot="3467311194"></ins>
+                             data-ad-slot="5418062397"></ins>
                         <script>
                         (adsbygoogle = window.adsbygoogle || []).push({});
                         </script>
@@ -464,12 +465,13 @@ $(function() {
                     <td>
                         <p class="bown"></p>
                         <div style=”display:block;”>
+                        <!-- Anuncio de 300 x 250px-->
                         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                        <!-- 300 Negro Naranja -->
+                        <!-- 300 Blanco y Azul -->
                         <ins class="adsbygoogle"
                              style="display:inline-block;width:300px;height:250px"
                              data-ad-client="ca-pub-1321388824434022"
-                             data-ad-slot="3467311194"></ins>
+                             data-ad-slot="5418062397"></ins>
                         <script>
                         (adsbygoogle = window.adsbygoogle || []).push({});
                         </script>
@@ -481,12 +483,13 @@ $(function() {
                     <td>
                         <p class="bown"></p>
                         <div style=”display:block;”>
+                        <!-- Anuncio de 300 x 600px-->
                         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                        <!-- 300 Negro Naranja -->
+                        <!-- 300 x 600 Blanco y Azul -->
                         <ins class="adsbygoogle"
-                             style="display:inline-block;width:300px;height:250px"
+                             style="display:inline-block;width:300px;height:600px"
                              data-ad-client="ca-pub-1321388824434022"
-                             data-ad-slot="3467311194"></ins>
+                             data-ad-slot="5278461591"></ins>
                         <script>
                         (adsbygoogle = window.adsbygoogle || []).push({});
                         </script>
@@ -526,7 +529,7 @@ $(function() {
                             </td>
                         </tr>
                         <tr>
-                            <p style="color:#b7c9da">
+                            <p style="color:black">
                             What are badges? The foreign exchange market is decentralized international market for buying and selling currencies. It is the largest financial market in the world and is also known as foreign exchange, forex or FX. The foreign exchange market helps businesses and investors to convert one currency to another. At the most basic level, we all participate in it when traveling abroad and sell our local currency to coin money they must spend abroad.
                             </p>
                         </tr>
