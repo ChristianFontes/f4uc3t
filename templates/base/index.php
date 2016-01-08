@@ -16,7 +16,7 @@ padding: 0;
 margin: 0;
 font-family: 'Roboto', sans-serif;
 color: #ffffff;
-background: #ffffff;
+background: #000000;
 background-image:url('http://www.top-bit.com/images/dark-blocks-blue.jpg');
 background-repeat: repeat-x;
 background-attachment: fixed;
