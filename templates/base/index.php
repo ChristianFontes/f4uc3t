@@ -503,11 +503,8 @@ $(function() {
                     </td>
                     <td align="justify">
                         <p class="bown"></p>
-                        What is bitcoin?
-
-                        Bitcoin is a payment system introduced as open-source software in 2009 by developer Satoshi Nakamoto. The payments in the system are recorded in a public ledger using its own unit of account, which is also called bitcoin. Payments work peer-to-peer without a central repository or single administrator, which has led the US Treasury to call bitcoin a decentralized virtual currency. Although its status as a currency is disputed, media reports often refer to bitcoin as a cryptocurrency or digital currency.
-
-                        Bitcoins are created as a reward for payment processing work in which users offer their computing power to verify and record payments into the public ledger. Called mining, individuals or companies engage in this activity in exchange for transaction fees and newly created bitcoins. Besides mining, bitcoins can be obtained in exchange for fiat money, products, and services. Users can send and receive bitcoins electronically for an optional transaction fee using wallet software on a personal computer, mobile device, or a web application.
+                        <p>The Bitcoin is an anonymous currency ...</p>
+                        <p>This is a virtual "currency" that can be used to exchange goods and services in places where accepted. Unlike a ticket or actual currency, Bitcoin has no serial number or any other mechanism to track a buyer or seller.</p>
                     </td>
                 </tr>
                 <tr>
