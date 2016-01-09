@@ -451,17 +451,10 @@ $(function() {
                     <tr>
                         <td align="justify" style="width:50%, height:25%">
                             <p class="bown"></p>
-                            What is a faucet?
-
-                            A faucet is a site that allows people to earn bitcoin (BTC) virtual currency by completing simple 
-                            tasks, such as viewing a webpage for a specified amount of time, 
-                            viewing ad content, even solving CAPTCHAs and playing games. The payout from each faucet task is 
-                            generally quite small, but over time as you accumulate bitcoin currency through multiple tasks, 
-                            and as the value of the BTC increases relative to other currencies (which it is expected to do), 
-                            the earnings from bitcoin faucets could be substantial. Because bitcoin currency is being released 
-                            on a deflationary schedule, due to laws of supply and demand, it is expected to grow stronger 
-                            over time compared to other currencies. In order to receive bitcoin currency, either through direct 
-                            purchase or from a faucet, you will first need to have a bitcoin wallet.
+                            <p>What are Faucets Bitcoins?</p>
+                            <p>Faucet were created in the beginning of the Bitcoin network to encourage people to use and creating Bitcoin wallets. In the early years there were few people who knew about this criptomonedas, so I decided to create this site to donate a portion of their profits to many users inviting them to join the network. In the course of time, these sites were able to self sustain that are financed by advertising.</p>
+                            <p>How to earn Bitcoins with Faucets?</p>
+                            <p>Earn BitCoin with Faucet pages is very simple, as you only have to enter your purse BitCoin and solve a captcha. Rarely you will ask to make a record but it is very easy to do and wont take more than 20 seconds to do so.</p>
                         </td>
                         <td align="justify" style="width:50%">
                             <p class="bown"></p>
