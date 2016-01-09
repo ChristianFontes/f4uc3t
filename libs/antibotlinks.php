@@ -80,9 +80,9 @@ class antibotlinks {
       imagepng($im);
       $imagedata = ob_get_contents();
       ob_end_clean();
-      $antibotlinks_array['info']='Click on the links in the following order <img src="data:image/png;base64,'.base64_encode($imagedata).'" alt="" width="'.($this->link_count*50).'" height="16"/>';
+      $antibotlinks_array['info']='Click in the following order <img src="data:image/png;base64,'.base64_encode($imagedata).'" alt="" width="'.($this->link_count*50).'" height="16"/>';
     } else {
-      $antibotlinks_array['info']='Click on the links in the following order '.implode(', ', $info_array);
+      $antibotlinks_array['info']='Click in the following order '.implode(', ', $info_array);
     }
 
     shuffle($antibotlinks_array['links']);
