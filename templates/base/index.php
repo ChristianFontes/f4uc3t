@@ -345,7 +345,6 @@ $(function() {
         </ul>
         <table style="width:100%">
         <td><?php echo $data["custom_left_ad_slot"]; ?>
-        <center><?php echo $antibotlinks->show_info(); ?></center>
         </td>
         </table>
         <br>
@@ -372,14 +371,7 @@ $(function() {
                 <center><p class="alert alert-danger" role="alert">Invalid AntiBot verification!</p></center>
                 <?php endif; ?>
                 </div>
-                
-            <div class="input-group">
-                <span class="input-group-addon text-primary"><i class="fa fa-btc"></i> Address</span>
-                <input type="text" name="<?php echo $data["address_input_name"]; ?>" class="form-control" style="position: absolute; position: fixed; left: -99999px; top: -99999px; opacity: 0; width: 1px; height: 1px">
-                <input type="checkbox" name="honeypot" style="position: absolute; position: fixed; left: -99999px; top: -99999px; opacity: 0; width: 1px; height: 1px">
-                <input type="text" name="<?php echo $data["address_input_name"]; ?>" class="form-control" placeholder="i.e. 1DT5CupfxUn6UJK97ocVnWN2CzQPn8MgrN" value="<?php echo $data["address"]; ?>" autocomplete="off">
-            </div>
-            <br></br>
+            </br>
                 <table style="width:100%">
                   <tr>
                     <td><div style=”display:block;”>
@@ -426,7 +418,7 @@ $(function() {
                 </div>
                 -->
                 <div>
-                    <table align="center" style="width:70%">
+                    <table align="center" style="width:80%">
                     <tr>
                         <td>
                             <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -451,6 +443,7 @@ $(function() {
                         <p class="bown"></p>
                         <p>What is Bitcoin Faucet?</p>
                         <p>Faucets are the pages that make 'micro' who come to them from time to time; depending on the Faucet this time can result in a few minutes, hours or even a day. They exist as an incentive to encourage new users of BTC, and generally give very small amounts so that you can gather up to a minimum amount of retirement, and thus achieve spend the money earned our wallet Bitcoin, which is the account where we store our money.</p>
+                        <center><?php echo $antibotlinks->show_info(); ?></center>
                     </td>
                     <td>
                         <p class="bown"></p>
@@ -483,6 +476,12 @@ $(function() {
                         </script>
                         </div>
                         <center class="link" style="display:block;"><?php echo $antibotlinks->show_link(); ?></center>
+                        <div class="input-group" align="center">
+                            <span class="input-group-addon text-primary"><i class="fa fa-btc"></i> Address</span>
+                            <input type="text" name="<?php echo $data["address_input_name"]; ?>" class="form-control" style="position: absolute; position: fixed; left: -99999px; top: -99999px; opacity: 0; width: 1px; height: 1px">
+                            <input type="checkbox" name="honeypot" style="position: absolute; position: fixed; left: -99999px; top: -99999px; opacity: 0; width: 1px; height: 1px">
+                            <input type="text" name="<?php echo $data["address_input_name"]; ?>" class="form-control" placeholder="i.e. 1DT5CupfxUn6UJK97ocVnWN2CzQPn8MgrN" value="<?php echo $data["address"]; ?>" autocomplete="off">
+                        </div>
                     </td>
                     <td align="justify">
                         <p class="bown"></p>
@@ -516,9 +515,8 @@ $(function() {
                             </td>
                         </tr>
                         <tr>
-                            <p>
-                            What are badges? The foreign exchange market is decentralized international market for buying and selling currencies. It is the largest financial market in the world and is also known as foreign exchange, forex or FX. The foreign exchange market helps businesses and investors to convert one currency to another. At the most basic level, we all participate in it when traveling abroad and sell our local currency to coin money they must spend abroad.
-                            </p>
+                            <p>Insurance is a contract by which one person (the insurer) agrees, by charging a premium and if the event occurs whose risk is hedged to compensate within the agreed limits, the damage produced to the insured or meet capital, income or other agreed services. They define the first article of Law 50/1980, of 8 October, on Insurance Contracts (BOE no. 250, of October 17, 1980), which is valid in Spain.</p>
+                            <p>This contract involved an insurer or insurance company, which is who sells insurance and who covers the risk and the insured or policyholder, is the person buying the insurance policy and pay the premium. Sometimes it's not the same person, for one can be who has purchased the policy, which is the policyholder and be different who is guaranteed or insured, as for example in collective accident insurance recruited by enterprises on behalf of their workers.</p>
                         </tr>
                         <center class="link" style="display:block;"><?php echo $antibotlinks->show_link(); ?></center>
                         </table>
@@ -545,17 +543,8 @@ $(function() {
                 <tr>
                     <td align="justify">
                         <p class="bown"></p>
-                        What is a faucet?
-
-                        A faucet is a site that allows people to earn bitcoin (BTC) virtual currency by completing simple 
-                        tasks, such as viewing a webpage for a specified amount of time, 
-                        viewing ad content, even solving CAPTCHAs and playing games. The payout from each faucet task is 
-                        generally quite small, but over time as you accumulate bitcoin currency through multiple tasks, 
-                        and as the value of the BTC increases relative to other currencies (which it is expected to do), 
-                        the earnings from bitcoin faucets could be substantial. Because bitcoin currency is being released 
-                        on a deflationary schedule, due to laws of supply and demand, it is expected to grow stronger 
-                        over time compared to other currencies. In order to receive bitcoin currency, either through direct 
-                        purchase or from a faucet, you will first need to have a bitcoin wallet.
+                        <p>What is Bitcoin Faucet?</p>
+                        <p>Faucets are the pages that make 'micro' who come to them from time to time; depending on the Faucet this time can result in a few minutes, hours or even a day. They exist as an incentive to encourage new users of BTC, and generally give very small amounts so that you can gather up to a minimum amount of retirement, and thus achieve spend the money earned our wallet Bitcoin, which is the account where we store our money.</p>
                     </td>
                     <td>
                         <p class="bown"></p>
@@ -584,12 +573,11 @@ $(function() {
                     </td>
                     <td align="justify">
                         <p class="bown"></p>
-                        What is bitcoin?
-
-                        Bitcoin is a payment system introduced as open-source software in 2009 by developer Satoshi Nakamoto. The payments in the system are recorded in a public ledger using its own unit of account, which is also called bitcoin. Payments work peer-to-peer without a central repository or single administrator, which has led the US Treasury to call bitcoin a decentralized virtual currency. Although its status as a currency is disputed, media reports often refer to bitcoin as a cryptocurrency or digital currency.
-
-                        Bitcoins are created as a reward for payment processing work in which users offer their computing power to verify and record payments into the public ledger. Called mining, individuals or companies engage in this activity in exchange for transaction fees and newly created bitcoins. Besides mining, bitcoins can be obtained in exchange for fiat money, products, and services. Users can send and receive bitcoins electronically for an optional transaction fee using wallet software on a personal computer, mobile device, or a web application.
-                    </td>
+                        <p>How to earn Bitcoins Faucet with?</p>
+                        <p>Win Bitcoin Faucet with pages is very simple, as you only have to enter your purse BitCoin and solve a captcha. Rarely you will ask to make a record but it is very easy to do and wont take more than 20 seconds to do so.</p>
+                        <p>Bitcoin and Forex</p>
+                        <p>The forex market is the foreign exchange market. Forex is short for Foreign Exchange market. It is the world's largest, with a volume of over 4 trillion dollars daily business financial market. To understand what this means turnover, it is what can move the NYSE (the largest in the world) throughout a trading month.</p>
+                        </td>
                 </tr>
                 <tr>
                     <td align="justify">
@@ -609,13 +597,10 @@ $(function() {
                         <script>
                         (adsbygoogle = window.adsbygoogle || []).push({});
                         </script></center>
-                        
-                        What are badges? The foreign exchange market is decentralized international market for buying and selling currencies. It is the largest financial market in the world and is also known as foreign exchange, forex or FX. The foreign exchange market helps businesses and investors to convert one currency to another. At the most basic level, we all participate in it when traveling abroad and sell our local currency to coin money they must spend abroad.
+                        <p>Insurance is a contract by which one person (the insurer) agrees, by charging a premium and if the event occurs whose risk is hedged to compensate within the agreed limits, the damage produced to the insured or meet capital, income or other agreed services. They define the first article of Law 50/1980, of 8 October, on Insurance Contracts (BOE no. 250, of October 17, 1980), which is valid in Spain.</p>
+                        <p>This contract involved an insurer or insurance company, which is who sells insurance and who covers the risk and the insured or policyholder, is the person buying the insurance policy and pay the premium. Sometimes it's not the same person, for one can be who has purchased the policy, which is the policyholder and be different who is guaranteed or insured, as for example in collective accident insurance recruited by enterprises on behalf of their workers.</p>
                     </td>
                 </tr>
-                <center>
-                    <a href="http://www.alexa.com/siteinfo/king-btc.com"><script type="text/javascript" src="http://xslt.alexa.com/site_stats/js/s/a?url=king-btc.com"></script></a>
-                </center>
                 </table>
 
         <?php break; case "user_page": ?>
