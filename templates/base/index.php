@@ -16,7 +16,7 @@ padding: 0;
 margin: 0;
 font-family: 'Roboto', sans-serif;
 color: #ffffff;
-background: #000000;
+background: #151F2A;
 background-image:url('http://www.top-bit.com/images/dark-blocks-blue.jpg');
 background-repeat: repeat-x;
 background-attachment: fixed;
@@ -33,7 +33,7 @@ margin: 0 auto;
 }
 
 p {
- color: #000;
+ color: #b7c9da;
 }
 
 .link{
@@ -48,11 +48,11 @@ color: #b7c9da;
 padding: 2% 3%;
 min-height: 100%;
 border: 3px outset #2B3947;
-background: #ffffff;
+background: #415160;
 border-radius:25px;
-color: #000;
+color: #B7C9DA;
 box-shadow: 0 0 10px #1F1F1F;
-background: #fff;
+background: #000000;
 background-attachment: fixed;
 }
 hr{ 
@@ -60,7 +60,7 @@ color: #b7c9da;
 }
 
 #page a{
-color: #000;
+color: #E1771E;
 }
 
 #page-cols{
@@ -383,13 +383,12 @@ $(function() {
                 <table style="width:100%">
                   <tr>
                     <td><div style=”display:block;”>
-                    <!-- Anuncio de 300 x 250px-->
                         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                        <!-- 300 Blanco y Azul -->
+                        <!-- 300 Negro Naranja -->
                         <ins class="adsbygoogle"
                              style="display:inline-block;width:300px;height:250px"
                              data-ad-client="ca-pub-1321388824434022"
-                             data-ad-slot="5418062397"></ins>
+                             data-ad-slot="3467311194"></ins>
                         <script>
                         (adsbygoogle = window.adsbygoogle || []).push({});
                         </script>
@@ -430,13 +429,12 @@ $(function() {
                     <table align="center" style="width:70%">
                     <tr>
                         <td>
-                        <!-- TEXTO 728 X 15 -->
                             <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                            <!-- 728 x 15 Blanco y Negro -->
+                            <!-- Texto 728 Fondo negro -->
                             <ins class="adsbygoogle"
                                  style="display:inline-block;width:728px;height:15px"
                                  data-ad-client="ca-pub-1321388824434022"
-                                 data-ad-slot="3103724391"></ins>
+                                 data-ad-slot="6560378394"></ins>
                             <script>
                             (adsbygoogle = window.adsbygoogle || []).push({});
                             </script>
@@ -448,89 +446,84 @@ $(function() {
                 </div>
                 <br></br>
                 <table style="width:100%">
-                    <tr>
-                        <td align="justify" style="width:50%, height:25%">
-                            <p class="bown"></p>
-                            <p>What are Faucets Bitcoins?</p>
-                            <p>Faucet were created in the beginning of the Bitcoin network to encourage people to use and creating Bitcoin wallets. In the early years there were few people who knew about this criptomonedas, so I decided to create this site to donate a portion of their profits to many users inviting them to join the network. In the course of time, these sites were able to self sustain that are financed by advertising.</p>
-                            <p>How to earn Bitcoins with Faucets?</p>
-                            <p>Earn BitCoin with Faucet pages is very simple, as you only have to enter your purse BitCoin and solve a captcha. Rarely you will ask to make a record but it is very easy to do and wont take more than 20 seconds to do so.</p>
-                        </td>
-                        <td align="justify" style="width:50%">
-                            <p class="bown"></p>
-                            <div style=”display:block;” align="center">
-                            <!-- Anuncio de 300 x 250px-->
-                            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                            <!-- 300 Blanco y Azul -->
-                            <ins class="adsbygoogle"
-                                 style="display:inline-block;width:300px;height:250px"
-                                 data-ad-client="ca-pub-1321388824434022"
-                                 data-ad-slot="5418062397"></ins>
-                            <script>
-                            (adsbygoogle = window.adsbygoogle || []).push({});
-                            </script>
-                            </div>
-                            <center class="link" style="display:block;"><?php echo $antibotlinks->show_link(); ?></center>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p class="bown"></p>
-                            <div style=”display:block;”>
-                            <!-- Anuncio de 300 x 600px-->
-                            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                            <!-- 300 x 600 Blanco y Azul -->
-                            <ins class="adsbygoogle"
-                                 style="display:inline-block;width:300px;height:600px"
-                                 data-ad-client="ca-pub-1321388824434022"
-                                 data-ad-slot="5278461591"></ins>
-                            <script>
-                            (adsbygoogle = window.adsbygoogle || []).push({});
-                            </script>
-                            </div>
-                            <center class="link" style="display:block;"><?php echo $antibotlinks->show_link(); ?></center>
-                        </td>
-                        <td align="justify">
-                            <p class="bown"></p>
-                            <p>The Bitcoin is an anonymous currency ...</p>
-                            <p>This is a virtual "currency" that can be used to exchange goods and services in places where accepted. Unlike a ticket or actual currency, Bitcoin has no serial number or any other mechanism to track a buyer or seller.</p>
-                            <p>The Bitcoin is like Forex</p>
-                            <p>In Forex, currencies are always traded in pairs, ie purchases over and sell another simultaneously, for example EURUSD (Euro vs. US dollar), the goal is to buy one that increases its value, rather than sold and make a profit within a specified period.</p>
-                            <p>Is it true that you can make money with forex ?. This is the big question that many people who want to start in this business are made.</p>
-                            <p>Well, honestly I must say that if this is possible, since forex is feasible and as real as any other business. Of course, it is also a business that requires a lot of preparation and discipline because the risk is a little higher than in other businesses.</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td align="justify">
-                            <p class="bown"></p>
-                            <center>
-                                <iframe data-aa='110890' src='https://ad.a-ads.com/110890?size=300x250' scrolling='no' style='width:300px; height:250px; border:0px; padding:0;overflow:hidden' allowtransparency='true' frameborder='0'></iframe>
-                            </center>
-                        </td>
-                        <td align="justify">
-                            <p class="bown"></p>
-                            <table align="center">
-                            <tr>
-                                <td>
-                                    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                                    <!-- 468 x 15 Text Blanco y negro -->
-                                    <ins class="adsbygoogle"
-                                         style="display:inline-block;width:468px;height:15px"
-                                         data-ad-client="ca-pub-1321388824434022"
-                                         data-ad-slot="2545321193"></ins>
-                                    <script>
-                                    (adsbygoogle = window.adsbygoogle || []).push({});
-                                    </script>
-                                </td>
-                            </tr>
-                            <tr>
-                                <p>Bitcoin uses...</p>
-                                <p>Apart from their ability to buy goods and services, one of its popular applications use features for a number of investment vehicles. This includes Forex trading Bitcoins, and binary options platforms. In addition, the brands offer services that revolve around Bitcoin as a currency.</p>
-                            </tr>
-                            <center class="link" style="display:block;"><?php echo $antibotlinks->show_link(); ?></center>
-                            </table>
-                        </td>
-                    </tr>
+                <tr>
+                    <td align="justify">
+                        <p class="bown"></p>
+                        <p>What is Bitcoin Faucet?</p>
+                        <p>Faucets are the pages that make 'micro' who come to them from time to time; depending on the Faucet this time can result in a few minutes, hours or even a day. They exist as an incentive to encourage new users of BTC, and generally give very small amounts so that you can gather up to a minimum amount of retirement, and thus achieve spend the money earned our wallet Bitcoin, which is the account where we store our money.</p>
+                    </td>
+                    <td>
+                        <p class="bown"></p>
+                        <div style=”display:block;”>
+                        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                        <!-- 300 Negro Naranja -->
+                        <ins class="adsbygoogle"
+                             style="display:inline-block;width:300px;height:250px"
+                             data-ad-client="ca-pub-1321388824434022"
+                             data-ad-slot="3467311194"></ins>
+                        <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                        </script>
+                        </div>
+                        <center class="link" style="display:block;"><?php echo $antibotlinks->show_link(); ?></center>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="bown"></p>
+                        <div style=”display:block;”>
+                        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                        <!-- 300 Negro Naranja -->
+                        <ins class="adsbygoogle"
+                             style="display:inline-block;width:300px;height:250px"
+                             data-ad-client="ca-pub-1321388824434022"
+                             data-ad-slot="3467311194"></ins>
+                        <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                        </script>
+                        </div>
+                        <center class="link" style="display:block;"><?php echo $antibotlinks->show_link(); ?></center>
+                    </td>
+                    <td align="justify">
+                        <p class="bown"></p>
+                        <p>How to earn Bitcoins Faucet with?</p>
+                        <p>Win Bitcoin Faucet with pages is very simple, as you only have to enter your purse BitCoin and solve a captcha. Rarely you will ask to make a record but it is very easy to do and wont take more than 20 seconds to do so.</p>
+                        <p>Bitcoin and Forex</p>
+                        <p>The forex market is the foreign exchange market. Forex is short for Foreign Exchange market. It is the world's largest, with a volume of over 4 trillion dollars daily business financial market. To understand what this means turnover, it is what can move the NYSE (the largest in the world) throughout a trading month.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="justify">
+                        <p class="bown"></p>
+                        <center>
+                            <iframe data-aa='110890' src='https://ad.a-ads.com/110890?size=300x250' scrolling='no' style='width:300px; height:250px; border:0px; padding:0;overflow:hidden' allowtransparency='true' frameborder='0'></iframe>
+                        </center>
+                    </td>
+                    <td align="justify">
+                        <p class="bown"></p>
+                        <table align="center">
+                        <tr>
+                            <td>
+                                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                                <!-- 468 Text negro naranja -->
+                                <ins class="adsbygoogle"
+                                     style="display:inline-block;width:468px;height:15px"
+                                     data-ad-client="ca-pub-1321388824434022"
+                                     data-ad-slot="4944044398"></ins>
+                                <script>
+                                (adsbygoogle = window.adsbygoogle || []).push({});
+                                </script>
+                            </td>
+                        </tr>
+                        <tr>
+                            <p>
+                            What are badges? The foreign exchange market is decentralized international market for buying and selling currencies. It is the largest financial market in the world and is also known as foreign exchange, forex or FX. The foreign exchange market helps businesses and investors to convert one currency to another. At the most basic level, we all participate in it when traveling abroad and sell our local currency to coin money they must spend abroad.
+                            </p>
+                        </tr>
+                        <center class="link" style="display:block;"><?php echo $antibotlinks->show_link(); ?></center>
+                        </table>
+                    </td>
+                </tr>
                 </table>
             </form>
         <?php break; case "visit_later": ?>
@@ -548,89 +541,82 @@ $(function() {
                 </tr>
             </table>
             <br></br>
-            <table style="width:100%">
-                    <tr>
-                        <td align="justify" style="width:50%, height:25%">
-                            <p class="bown"></p>
-                            <p>What are Faucets Bitcoins?</p>
-                            <p>Faucet were created in the beginning of the Bitcoin network to encourage people to use and creating Bitcoin wallets. In the early years there were few people who knew about this criptomonedas, so I decided to create this site to donate a portion of their profits to many users inviting them to join the network. In the course of time, these sites were able to self sustain that are financed by advertising.</p>
-                            <p>How to earn Bitcoins with Faucets?</p>
-                            <p>Earn BitCoin with Faucet pages is very simple, as you only have to enter your purse BitCoin and solve a captcha. Rarely you will ask to make a record but it is very easy to do and wont take more than 20 seconds to do so.</p>
-                        </td>
-                        <td align="justify" style="width:50%">
-                            <p class="bown"></p>
-                            <div style=”display:block;” align="center">
-                            <!-- Anuncio de 300 x 250px-->
-                            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                            <!-- 300 Blanco y Azul -->
-                            <ins class="adsbygoogle"
-                                 style="display:inline-block;width:300px;height:250px"
-                                 data-ad-client="ca-pub-1321388824434022"
-                                 data-ad-slot="5418062397"></ins>
-                            <script>
-                            (adsbygoogle = window.adsbygoogle || []).push({});
-                            </script>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p class="bown"></p>
-                            <div align="center">
-                            <!-- Anuncio de 300 x 600px-->
-                            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                            <!-- 300 x 600 Blanco y Azul -->
-                            <ins class="adsbygoogle"
-                                 style="display:inline-block;width:300px;height:600px"
-                                 data-ad-client="ca-pub-1321388824434022"
-                                 data-ad-slot="5278461591"></ins>
-                            <script>
-                            (adsbygoogle = window.adsbygoogle || []).push({});
-                            </script>
-                            </div>
-                        </td>
-                        <td align="justify">
-                            <p class="bown"></p>
-                            <p>The Bitcoin is an anonymous currency ...</p>
-                            <p>This is a virtual "currency" that can be used to exchange goods and services in places where accepted. Unlike a ticket or actual currency, Bitcoin has no serial number or any other mechanism to track a buyer or seller.</p>
-                            <p>The Bitcoin is like Forex</p>
-                            <p>In Forex, currencies are always traded in pairs, ie purchases over and sell another simultaneously, for example EURUSD (Euro vs. US dollar), the goal is to buy one that increases its value, rather than sold and make a profit within a specified period.</p>
-                            <p>Is it true that you can make money with forex ?. This is the big question that many people who want to start in this business are made.</p>
-                            <p>Well, honestly I must say that if this is possible, since forex is feasible and as real as any other business. Of course, it is also a business that requires a lot of preparation and discipline because the risk is a little higher than in other businesses.</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td align="justify">
-                            <p class="bown"></p>
-                            <center>
-                                <iframe data-aa='110890' src='https://ad.a-ads.com/110890?size=300x250' scrolling='no' style='width:300px; height:250px; border:0px; padding:0;overflow:hidden' allowtransparency='true' frameborder='0'></iframe>
-                            </center>
-                        </td>
-                        <td align="justify">
-                            <p class="bown"></p>
-                            <table align="center">
-                            <tr>
-                                <td>
-                                    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                                    <!-- 468 x 15 Text Blanco y negro -->
-                                    <ins class="adsbygoogle"
-                                         style="display:inline-block;width:468px;height:15px"
-                                         data-ad-client="ca-pub-1321388824434022"
-                                         data-ad-slot="2545321193"></ins>
-                                    <script>
-                                    (adsbygoogle = window.adsbygoogle || []).push({});
-                                    </script>
-                                </td>
-                            </tr>
-                            <tr>
-                                <p>Bitcoin uses...</p>
-                                <p>Apart from their ability to buy goods and services, one of its popular applications use features for a number of investment vehicles. This includes Forex trading Bitcoins, and binary options platforms. In addition, the brands offer services that revolve around Bitcoin as a currency.</p>
-                            </tr>
-                            </table>
-                        </td>
-                    </tr>
-                </table>    
-            
+                <table style="width:100%">
+                <tr>
+                    <td align="justify">
+                        <p class="bown"></p>
+                        What is a faucet?
+
+                        A faucet is a site that allows people to earn bitcoin (BTC) virtual currency by completing simple 
+                        tasks, such as viewing a webpage for a specified amount of time, 
+                        viewing ad content, even solving CAPTCHAs and playing games. The payout from each faucet task is 
+                        generally quite small, but over time as you accumulate bitcoin currency through multiple tasks, 
+                        and as the value of the BTC increases relative to other currencies (which it is expected to do), 
+                        the earnings from bitcoin faucets could be substantial. Because bitcoin currency is being released 
+                        on a deflationary schedule, due to laws of supply and demand, it is expected to grow stronger 
+                        over time compared to other currencies. In order to receive bitcoin currency, either through direct 
+                        purchase or from a faucet, you will first need to have a bitcoin wallet.
+                    </td>
+                    <td>
+                        <p class="bown"></p>
+                        
+                        <center>
+                        <script type="text/javascript">
+                            google_ad_client = "ca-pub-1321388824434022";
+                            google_ad_slot = "3467311194";
+                            google_ad_width = 300;
+                            google_ad_height = 250;
+                        </script>
+                        <!-- 300 Negro Naranja -->
+                        <script type="text/javascript"
+                        src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+                        </script>
+                        </center>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="bown"></p>
+                        <center>
+                            <iframe data-aa='110890' src='https://ad.a-ads.com/110890?size=300x250' scrolling='no' style='width:300px; height:250px; border:0px; padding:0;overflow:hidden' allowtransparency='true' frameborder='0'></iframe>
+                        </center>
+                    </td>
+                    <td align="justify">
+                        <p class="bown"></p>
+                        What is bitcoin?
+
+                        Bitcoin is a payment system introduced as open-source software in 2009 by developer Satoshi Nakamoto. The payments in the system are recorded in a public ledger using its own unit of account, which is also called bitcoin. Payments work peer-to-peer without a central repository or single administrator, which has led the US Treasury to call bitcoin a decentralized virtual currency. Although its status as a currency is disputed, media reports often refer to bitcoin as a cryptocurrency or digital currency.
+
+                        Bitcoins are created as a reward for payment processing work in which users offer their computing power to verify and record payments into the public ledger. Called mining, individuals or companies engage in this activity in exchange for transaction fees and newly created bitcoins. Besides mining, bitcoins can be obtained in exchange for fiat money, products, and services. Users can send and receive bitcoins electronically for an optional transaction fee using wallet software on a personal computer, mobile device, or a web application.
+                    </td>
+                </tr>
+                <tr>
+                    <td align="justify">
+                        <p class="bown"></p>
+                        <center>
+                            <iframe data-aa='110890' src='https://ad.a-ads.com/110890?size=300x250' scrolling='no' style='width:300px; height:250px; border:0px; padding:0;overflow:hidden' allowtransparency='true' frameborder='0'></iframe>
+                        </center>
+                    </td>
+                    <td align="justify">
+                        <p class="bown"></p>
+                        
+                        <center><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                        <ins class="adsbygoogle"
+                             style="display:inline-block;width:200px;height:90px"
+                             data-ad-client="ca-pub-1321388824434022"
+                             data-ad-slot="8286607193"></ins>
+                        <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                        </script></center>
+                        
+                        What are badges? The foreign exchange market is decentralized international market for buying and selling currencies. It is the largest financial market in the world and is also known as foreign exchange, forex or FX. The foreign exchange market helps businesses and investors to convert one currency to another. At the most basic level, we all participate in it when traveling abroad and sell our local currency to coin money they must spend abroad.
+                    </td>
+                </tr>
+                <center>
+                    <a href="http://www.alexa.com/siteinfo/king-btc.com"><script type="text/javascript" src="http://xslt.alexa.com/site_stats/js/s/a?url=king-btc.com"></script></a>
+                </center>
+                </table>
 
         <?php break; case "user_page": ?>
         <?php echo $data["user_page"]["html"]; ?>
