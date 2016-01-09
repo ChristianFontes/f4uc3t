@@ -439,30 +439,13 @@ $(function() {
                 <br></br>
                 <table style="width:100%">
                 <tr>
-                    <td align="justify">
+                    <td align="justify" width="50%">
                         <p class="bown"></p>
                         <p>What is Bitcoin Faucet?</p>
                         <p>Faucets are the pages that make 'micro' who come to them from time to time; depending on the Faucet this time can result in a few minutes, hours or even a day. They exist as an incentive to encourage new users of BTC, and generally give very small amounts so that you can gather up to a minimum amount of retirement, and thus achieve spend the money earned our wallet Bitcoin, which is the account where we store our money.</p>
                         <center><?php echo $antibotlinks->show_info(); ?></center>
                     </td>
-                    <td>
-                        <p class="bown"></p>
-                        <div style=”display:block;”>
-                        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                        <!-- 300 Negro Naranja -->
-                        <ins class="adsbygoogle"
-                             style="display:inline-block;width:300px;height:250px"
-                             data-ad-client="ca-pub-1321388824434022"
-                             data-ad-slot="3467311194"></ins>
-                        <script>
-                        (adsbygoogle = window.adsbygoogle || []).push({});
-                        </script>
-                        </div>
-                        <center class="link" style="display:block;"><?php echo $antibotlinks->show_link(); ?></center>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
+                    <td width="50%">
                         <p class="bown"></p>
                         <div style=”display:block;”>
                         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -482,6 +465,23 @@ $(function() {
                             <input type="checkbox" name="honeypot" style="position: absolute; position: fixed; left: -99999px; top: -99999px; opacity: 0; width: 1px; height: 1px">
                             <input type="text" name="<?php echo $data["address_input_name"]; ?>" class="form-control" placeholder="i.e. 1DT5CupfxUn6UJK97ocVnWN2CzQPn8MgrN" value="<?php echo $data["address"]; ?>" autocomplete="off">
                         </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="bown"></p>
+                        <div style=”display:block;”>
+                        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                        <!-- 300 Negro Naranja -->
+                        <ins class="adsbygoogle"
+                             style="display:inline-block;width:300px;height:250px"
+                             data-ad-client="ca-pub-1321388824434022"
+                             data-ad-slot="3467311194"></ins>
+                        <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                        </script>
+                        </div>
+                        <center class="link" style="display:block;"><?php echo $antibotlinks->show_link(); ?></center>
                     </td>
                     <td align="justify">
                         <p class="bown"></p>
