@@ -449,7 +449,7 @@ $(function() {
                 <br></br>
                 <table style="width:100%">
                     <tr>
-                        <td align="justify" style="width:50%">
+                        <td align="justify" style="width:50%, height:25%">
                             <p class="bown"></p>
                             What is a faucet?
 
