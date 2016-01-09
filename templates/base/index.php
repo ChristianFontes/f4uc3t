@@ -479,8 +479,9 @@ $(function() {
                         </div>
                         <center class="link" style="display:block;"><?php echo $antibotlinks->show_link(); ?></center>
                         <p>The Bitcoin is like Forex</p>
-
                         <p>In Forex, currencies are always traded in pairs, ie purchases over and sell another simultaneously, for example EURUSD (Euro vs. US dollar), the goal is to buy one that increases its value, rather than sold and make a profit within a specified period.</p>
+                        <p>Is it true that you can make money with forex ?. This is the big question that many people who want to start in this business are made.</p>
+                        <p>Well, honestly I must say that if this is possible, since forex is feasible and as real as any other business. Of course, it is also a business that requires a lot of preparation and discipline because the risk is a little higher than in other businesses.</p>
                     </td>
                 </tr>
                 <tr>
@@ -522,11 +523,11 @@ $(function() {
                         <tr>
                             <td>
                                 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                                <!-- 468 Text negro naranja -->
+                                <!-- 468 x 15 Text Blanco y negro -->
                                 <ins class="adsbygoogle"
                                      style="display:inline-block;width:468px;height:15px"
                                      data-ad-client="ca-pub-1321388824434022"
-                                     data-ad-slot="4944044398"></ins>
+                                     data-ad-slot="2545321193"></ins>
                                 <script>
                                 (adsbygoogle = window.adsbygoogle || []).push({});
                                 </script>
