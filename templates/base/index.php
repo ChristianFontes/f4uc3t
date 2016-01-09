@@ -60,7 +60,7 @@ color: #b7c9da;
 }
 
 #page a{
-color: #E1771E;
+color: #000;
 }
 
 #page-cols{
@@ -427,7 +427,7 @@ $(function() {
                 </div>
                 -->
                 <div>
-                    <table align="center" style="width:60%">
+                    <table align="center" style="width:70%">
                     <tr>
                         <td>
                         <!-- TEXTO 728 X 15 -->
@@ -463,9 +463,9 @@ $(function() {
                         over time compared to other currencies. In order to receive bitcoin currency, either through direct 
                         purchase or from a faucet, you will first need to have a bitcoin wallet.
                     </td>
-                    <td>
+                    <td align="justify">
                         <p class="bown"></p>
-                        <div style=”display:block;”>
+                        <div style=”display:block;” align="center">
                         <!-- Anuncio de 300 x 250px-->
                         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                         <!-- 300 Blanco y Azul -->
@@ -478,6 +478,9 @@ $(function() {
                         </script>
                         </div>
                         <center class="link" style="display:block;"><?php echo $antibotlinks->show_link(); ?></center>
+                        <p>The Bitcoin is like Forex</p>
+
+                        <p>In Forex, currencies are always traded in pairs, ie purchases over and sell another simultaneously, for example EURUSD (Euro vs. US dollar), the goal is to buy one that increases its value, rather than sold and make a profit within a specified period.</p>
                     </td>
                 </tr>
                 <tr>
