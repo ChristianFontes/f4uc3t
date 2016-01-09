@@ -571,13 +571,12 @@ $(function() {
                             (adsbygoogle = window.adsbygoogle || []).push({});
                             </script>
                             </div>
-                            <center class="link" style="display:block;"><?php echo $antibotlinks->show_link(); ?></center>
                         </td>
                     </tr>
                     <tr>
                         <td>
                             <p class="bown"></p>
-                            <div style=”display:block;”>
+                            <div align="center">
                             <!-- Anuncio de 300 x 600px-->
                             <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                             <!-- 300 x 600 Blanco y Azul -->
@@ -589,7 +588,6 @@ $(function() {
                             (adsbygoogle = window.adsbygoogle || []).push({});
                             </script>
                             </div>
-                            <center class="link" style="display:block;"><?php echo $antibotlinks->show_link(); ?></center>
                         </td>
                         <td align="justify">
                             <p class="bown"></p>
@@ -628,7 +626,6 @@ $(function() {
                                 <p>Bitcoin uses...</p>
                                 <p>Apart from their ability to buy goods and services, one of its popular applications use features for a number of investment vehicles. This includes Forex trading Bitcoins, and binary options platforms. In addition, the brands offer services that revolve around Bitcoin as a currency.</p>
                             </tr>
-                            <center class="link" style="display:block;"><?php echo $antibotlinks->show_link(); ?></center>
                             </table>
                         </td>
                     </tr>
