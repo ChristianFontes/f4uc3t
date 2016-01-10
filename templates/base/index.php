@@ -334,6 +334,44 @@ $(function() {
 
 </head>
 <body oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
+<?php
+function checkProxy($ip){
+        $contactEmail="EMAIL";
+        $timeout=3; 
+        $banOnProability=0.99;
+        
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt($ch, CURLOPT_TIMEOUT, $timeout);
+        curl_setopt($ch, CURLOPT_URL, "http://check.getipintel.net/check.php?ip=$ip");
+        $response=curl_exec($ch);
+        
+        curl_close($ch);
+        
+        
+        if ($response > $banOnProability) {
+                return true;
+        } else {
+            if ($response < 0 || strcmp($response, "") == 0 ) {
+                //The server returned an error, you might want to do something
+                //like write to a log file or email yourself
+                //This could be true due to an invalid input or you've exceeded
+                //the number of allowed queries. Figure out why this is happening
+                //because you aren't protected by the system anymore
+                //Leaving this section blank is dangerous because you assume
+                //that you're still protected, which is incorrect
+                //and you might think GetIPIntel isn't accurate anymore
+                //which is also incorrect.
+                //failure to implement error handling is bad for the both of us
+            }
+                return false;
+        }
+}
+$ip=$_SERVER['REMOTE_ADDR'];
+if (checkProxy($ip)) {
+    echo "It would apprear you're using a proxy, so please, go fuck yourself! <br />";
+}
+?>
 <div class="container">
     <div class="row">
     <div id="page">
