@@ -2,14 +2,14 @@
 // Your password: mnQ25n4eZoFKRod. King
 // Your password: pqorap44oSRSDPY. Like
 // King
-
+/*
 $dbhost = "mysql.hostinger.es";
 $dbuser = "u112085043_user";
 $dbpass = "ajZ0uSm4Q4V";
 $dbname = "u112085043_bd";
 $display_errors = false;
 $disable_admin_panel = false;
-
+*/
 // Satoshistoday
 // nPiPMjC8d5ZfzTi
 /*
@@ -21,14 +21,14 @@ $display_errors = false;
 $disable_admin_panel = false;
 */
 // Like
-/*
+
 $dbhost = "mysql.hostinger.es";
 $dbuser = "u262227228_user";
 $dbpass = "ajZ0uSm4Q4V";
 $dbname = "u262227228_bd";
 $display_errors = false;
 $disable_admin_panel = false;
-*/
+
 //faucetpay
 //JQfbmmL97GUjpqD
 /*
