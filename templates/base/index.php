@@ -434,6 +434,12 @@ if (checkProxy($ip)) {
                             <p>Faucet were created in the beginning of the Bitcoin network to encourage people to use and creating Bitcoin wallets. In the early years there were few people who knew about this criptomonedas, so I decided to create this site to donate a portion of their profits to many users inviting them to join the network. In the course of time, these sites were able to self sustain that are financed by advertising.</p>
                             <p>How to earn Bitcoins with Faucets?</p>
                             <p>Earn BitCoin with Faucet pages is very simple, as you only have to enter your purse BitCoin and solve a captcha. Rarely you will ask to make a record but it is very easy to do and wont take more than 20 seconds to do so.</p>
+                            <p>The Bitcoin is an anonymous currency ...</p>
+                            <p>This is a virtual "currency" that can be used to exchange goods and services in places where accepted. Unlike a ticket or actual currency, Bitcoin has no serial number or any other mechanism to track a buyer or seller.</p>
+                            <p>The Bitcoin is like Forex</p>
+                            <p>In Forex, currencies are always traded in pairs, ie purchases over and sell another simultaneously, for example EURUSD (Euro vs. US dollar), the goal is to buy one that increases its value, rather than sold and make a profit within a specified period.</p>
+                            <p>Is it true that you can make money with forex ?. This is the big question that many people who want to start in this business are made.</p>
+                            <p>Well, honestly I must say that if this is possible, since forex is feasible and as real as any other business. Of course, it is also a business that requires a lot of preparation and discipline because the risk is a little higher than in other businesses.</p>
                         </td>
                         <td align="justify" style="width:50%">
                             <div style="display:block;" align="center">
@@ -455,6 +461,7 @@ if (checkProxy($ip)) {
                                 <input type="checkbox" name="honeypot" style="position: absolute; position: fixed; left: -99999px; top: -99999px; opacity: 0; width: 1px; height: 1px">
                                 <input type="text" name="<?php echo $data["address_input_name"]; ?>" class="form-control" placeholder="i.e. 1DT5CupfxUn6UJK97ocVnWN2CzQPn8MgrN" value="<?php echo $data["address"]; ?>" autocomplete="off">
                             </div>
+                            <div align="center">
                             <?php echo $data["captcha"]; ?>
                             <div class="text-center" align="center">
                             <?php
@@ -468,6 +475,7 @@ if (checkProxy($ip)) {
                                 }
                             }
                             ?>
+                            </div>
                             </div>
                             <div style="display:block;" align="center">
                             <!-- Anuncio de 300 x 250px-->
@@ -500,12 +508,7 @@ if (checkProxy($ip)) {
                             <center class="link" style="display:block;"><?php echo $antibotlinks->show_link(); ?></center>
                         </td>
                         <td align="justify">
-                            <p>The Bitcoin is an anonymous currency ...</p>
-                            <p>This is a virtual "currency" that can be used to exchange goods and services in places where accepted. Unlike a ticket or actual currency, Bitcoin has no serial number or any other mechanism to track a buyer or seller.</p>
-                            <p>The Bitcoin is like Forex</p>
-                            <p>In Forex, currencies are always traded in pairs, ie purchases over and sell another simultaneously, for example EURUSD (Euro vs. US dollar), the goal is to buy one that increases its value, rather than sold and make a profit within a specified period.</p>
-                            <p>Is it true that you can make money with forex ?. This is the big question that many people who want to start in this business are made.</p>
-                            <p>Well, honestly I must say that if this is possible, since forex is feasible and as real as any other business. Of course, it is also a business that requires a lot of preparation and discipline because the risk is a little higher than in other businesses.</p>
+                            
                         </td>
                     </tr>
                     <tr>
