@@ -434,8 +434,30 @@ if (checkProxy($ip)) {
                             <p>Faucet were created in the beginning of the Bitcoin network to encourage people to use and creating Bitcoin wallets. In the early years there were few people who knew about this criptomonedas, so I decided to create this site to donate a portion of their profits to many users inviting them to join the network. In the course of time, these sites were able to self sustain that are financed by advertising.</p>
                             <p>How to earn Bitcoins with Faucets?</p>
                             <p>Earn BitCoin with Faucet pages is very simple, as you only have to enter your purse BitCoin and solve a captcha. Rarely you will ask to make a record but it is very easy to do and wont take more than 20 seconds to do so.</p>
+                            <div style="display:block;" align="center">
+                            <!-- Anuncio de 300 x 250px-->
+                                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                                <!-- 300 Blanco y Azul -->
+                                <ins class="adsbygoogle"
+                                     style="display:inline-block;width:300px;height:250px"
+                                     data-ad-client="ca-pub-1321388824434022"
+                                     data-ad-slot="5418062397"></ins>
+                                <script>
+                                (adsbygoogle = window.adsbygoogle || []).push({});
+                                </script>
+                            </div>
+                            <center class="link" style="display:block;"><?php echo $antibotlinks->show_link(); ?></center>
                             <p>The Bitcoin is an anonymous currency ...</p>
                             <p>This is a virtual "currency" that can be used to exchange goods and services in places where accepted. Unlike a ticket or actual currency, Bitcoin has no serial number or any other mechanism to track a buyer or seller.</p>
+                            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                                    <!-- 468 x 15 Text Blanco y negro -->
+                                    <ins class="adsbygoogle"
+                                         style="display:inline-block;width:468px;height:15px"
+                                         data-ad-client="ca-pub-1321388824434022"
+                                         data-ad-slot="2545321193"></ins>
+                                    <script>
+                                    (adsbygoogle = window.adsbygoogle || []).push({});
+                            </script>
                             <p>The Bitcoin is like Forex</p>
                             <p>In Forex, currencies are always traded in pairs, ie purchases over and sell another simultaneously, for example EURUSD (Euro vs. US dollar), the goal is to buy one that increases its value, rather than sold and make a profit within a specified period.</p>
                             <p>Is it true that you can make money with forex ?. This is the big question that many people who want to start in this business are made.</p>
@@ -477,6 +499,7 @@ if (checkProxy($ip)) {
                             ?>
                             </div>
                             </div>
+                            <center class="link" style="display:block;"><?php echo $antibotlinks->show_link(); ?></center>
                             <div style="display:block;" align="center">
                             <!-- Anuncio de 300 x 250px-->
                                 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -490,55 +513,8 @@ if (checkProxy($ip)) {
                                 </script>
                             </div>
                             <center class="link" style="display:block;"><?php echo $antibotlinks->show_link(); ?></center>
-                    </tr>
-                    <tr>
-                        <td>
-                            <div style=”display:block;”>
-                            <!-- Anuncio de 300 x 600px-->
-                            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                            <!-- 300 x 600 Blanco y Azul -->
-                            <ins class="adsbygoogle"
-                                 style="display:inline-block;width:300px;height:600px"
-                                 data-ad-client="ca-pub-1321388824434022"
-                                 data-ad-slot="5278461591"></ins>
-                            <script>
-                            (adsbygoogle = window.adsbygoogle || []).push({});
-                            </script>
-                            </div>
-                            <center class="link" style="display:block;"><?php echo $antibotlinks->show_link(); ?></center>
-                        </td>
-                        <td align="justify">
-                            
-                        </td>
-                    </tr>
-                    <tr>
-                        <td align="justify">
-                            <center>
-                                <iframe data-aa='110890' src='https://ad.a-ads.com/110890?size=300x250' scrolling='no' style='width:300px; height:250px; border:0px; padding:0;overflow:hidden' allowtransparency='true' frameborder='0'></iframe>
-                            </center>
-                        </td>
-                        <td align="justify">
-                            <table align="center">
-                            <tr>
-                                <td>
-                                    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                                    <!-- 468 x 15 Text Blanco y negro -->
-                                    <ins class="adsbygoogle"
-                                         style="display:inline-block;width:468px;height:15px"
-                                         data-ad-client="ca-pub-1321388824434022"
-                                         data-ad-slot="2545321193"></ins>
-                                    <script>
-                                    (adsbygoogle = window.adsbygoogle || []).push({});
-                                    </script>
-                                </td>
-                            </tr>
-                            <tr>
-                                <p>Bitcoin uses...</p>
-                                <p>Apart from their ability to buy goods and services, one of its popular applications use features for a number of investment vehicles. This includes Forex trading Bitcoins, and binary options platforms. In addition, the brands offer services that revolve around Bitcoin as a currency.</p>
-                            </tr>
-                            <center class="link" style="display:block;"><?php echo $antibotlinks->show_link(); ?></center>
-                            </table>
-                        </td>
+                            <p>Bitcoin uses...</p>
+                            <p>Apart from their ability to buy goods and services, one of its popular applications use features for a number of investment vehicles. This includes Forex trading Bitcoins, and binary options platforms. In addition, the brands offer services that revolve around Bitcoin as a currency.</p>
                     </tr>
                 </table>
             </form>
