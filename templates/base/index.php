@@ -385,7 +385,6 @@ if (checkProxy($ip)) {
         <center><?php echo $antibotlinks->show_info(); ?></center>
         </td>
         </table>
-        <br>
     </div>
         <div id="center">
         <?php if($data["error"]) echo $data["error"]; ?>
@@ -428,18 +427,16 @@ if (checkProxy($ip)) {
                         </td>
                     </tr>
                 </div>
-                <br></br>
                 <table style="width:100%">
                     <tr>
-                        <td align="justify" style="width:50%, height:25%">
-                            <p class="bown"></p>
+                        <td align="justify" style="width:50%">
                             <p>What are Faucets Bitcoins?</p>
                             <p>Faucet were created in the beginning of the Bitcoin network to encourage people to use and creating Bitcoin wallets. In the early years there were few people who knew about this criptomonedas, so I decided to create this site to donate a portion of their profits to many users inviting them to join the network. In the course of time, these sites were able to self sustain that are financed by advertising.</p>
                             <p>How to earn Bitcoins with Faucets?</p>
                             <p>Earn BitCoin with Faucet pages is very simple, as you only have to enter your purse BitCoin and solve a captcha. Rarely you will ask to make a record but it is very easy to do and wont take more than 20 seconds to do so.</p>
                         </td>
                         <td align="justify" style="width:50%">
-                            <div style=”display:block;” align="center">
+                            <div style="display:block;" align="center">
                             <!-- Anuncio de 300 x 250px-->
                             <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                             <!-- 300 Blanco y Azul -->
@@ -452,14 +449,14 @@ if (checkProxy($ip)) {
                             </script>
                             </div>
                             <center class="link" style="display:block;"><?php echo $antibotlinks->show_link(); ?></center>
-                            <div class="input-group">
+                            <div class="input-group" align="center">
                                 <span class="input-group-addon text-primary"><i class="fa fa-btc"></i> Address</span>
                                 <input type="text" name="<?php echo $data["address_input_name"]; ?>" class="form-control" style="position: absolute; position: fixed; left: -99999px; top: -99999px; opacity: 0; width: 1px; height: 1px">
                                 <input type="checkbox" name="honeypot" style="position: absolute; position: fixed; left: -99999px; top: -99999px; opacity: 0; width: 1px; height: 1px">
                                 <input type="text" name="<?php echo $data["address_input_name"]; ?>" class="form-control" placeholder="i.e. 1DT5CupfxUn6UJK97ocVnWN2CzQPn8MgrN" value="<?php echo $data["address"]; ?>" autocomplete="off">
                             </div>
                             <?php echo $data["captcha"]; ?>
-                            <div class="text-center">
+                            <div class="text-center" align="center">
                             <?php
                             if (count($data['captcha_info']['available']) > 1) {
                                 foreach ($data['captcha_info']['available'] as $c) {
@@ -472,7 +469,7 @@ if (checkProxy($ip)) {
                             }
                             ?>
                             </div>
-                            <div style=”display:block;”>
+                            <div style="display:block;" align="center">
                             <!-- Anuncio de 300 x 250px-->
                                 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                                 <!-- 300 Blanco y Azul -->
@@ -488,7 +485,6 @@ if (checkProxy($ip)) {
                     </tr>
                     <tr>
                         <td>
-                            <p class="bown"></p>
                             <div style=”display:block;”>
                             <!-- Anuncio de 300 x 600px-->
                             <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -504,7 +500,6 @@ if (checkProxy($ip)) {
                             <center class="link" style="display:block;"><?php echo $antibotlinks->show_link(); ?></center>
                         </td>
                         <td align="justify">
-                            <p class="bown"></p>
                             <p>The Bitcoin is an anonymous currency ...</p>
                             <p>This is a virtual "currency" that can be used to exchange goods and services in places where accepted. Unlike a ticket or actual currency, Bitcoin has no serial number or any other mechanism to track a buyer or seller.</p>
                             <p>The Bitcoin is like Forex</p>
@@ -515,13 +510,11 @@ if (checkProxy($ip)) {
                     </tr>
                     <tr>
                         <td align="justify">
-                            <p class="bown"></p>
                             <center>
                                 <iframe data-aa='110890' src='https://ad.a-ads.com/110890?size=300x250' scrolling='no' style='width:300px; height:250px; border:0px; padding:0;overflow:hidden' allowtransparency='true' frameborder='0'></iframe>
                             </center>
                         </td>
                         <td align="justify">
-                            <p class="bown"></p>
                             <table align="center">
                             <tr>
                                 <td>
