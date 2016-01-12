@@ -1,43 +1,4 @@
 <!DOCTYPE html>
-<?php
-
-function checkProxy($ip){
-        $contactEmail="EMAIL";
-        $timeout=3; 
-        $banOnProability=0.99;
-        
-        $ch = curl_init();
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-        curl_setopt($ch, CURLOPT_TIMEOUT, $timeout);
-        curl_setopt($ch, CURLOPT_URL, "http://check.getipintel.net/check.php?ip=$ip");
-        $response=curl_exec($ch);
-        
-        curl_close($ch);
-        
-        
-        if ($response > $banOnProability) {
-                return true;
-        } else {
-            if ($response < 0 || strcmp($response, "") == 0 ) {
-                //The server returned an error, you might want to do something
-                //like write to a log file or email yourself
-                //This could be true due to an invalid input or you've exceeded
-                //the number of allowed queries. Figure out why this is happening
-                //because you aren't protected by the system anymore
-                //Leaving this section blank is dangerous because you assume
-                //that you're still protected, which is incorrect
-                //and you might think GetIPIntel isn't accurate anymore
-                //which is also incorrect.
-                //failure to implement error handling is bad for the both of us
-            }
-                return false;
-        }
-}
-$ip=$_SERVER['REMOTE_ADDR'];
-if (checkProxy($ip)) {
-    echo "It would apprear you're using a proxy, so please, go fuck yourself! <br />";
-}
-?>
 <html>
 <head>
 <meta charset="UTF-8"/>
@@ -55,7 +16,7 @@ padding: 0;
 margin: 0;
 font-family: 'Roboto', sans-serif;
 color: #ffffff;
-background: #151F2A;
+background: #000000;
 background-image:url('http://www.top-bit.com/images/dark-blocks-blue.jpg');
 background-repeat: repeat-x;
 background-attachment: fixed;
@@ -72,7 +33,7 @@ margin: 0 auto;
 }
 
 p {
- color: #b7c9da;
+ color: #000;
 }
 
 .link{
@@ -87,11 +48,11 @@ color: #b7c9da;
 padding: 2% 3%;
 min-height: 100%;
 border: 3px outset #2B3947;
-background: #415160;
+background: #ffffff;
 border-radius:25px;
-color: #B7C9DA;
+color: #000;
 box-shadow: 0 0 10px #1F1F1F;
-background: #000000;
+background: #fff;
 background-attachment: fixed;
 }
 hr{ 
@@ -99,7 +60,7 @@ color: #b7c9da;
 }
 
 #page a{
-color: #E1771E;
+color: #000;
 }
 
 #page-cols{
@@ -370,9 +331,46 @@ $(function() {
   });
 });
 </script>
-
 </head>
 <body oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
+<?php
+function checkProxy($ip){
+        $contactEmail="EMAIL";
+        $timeout=3; 
+        $banOnProability=0.99;
+        
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt($ch, CURLOPT_TIMEOUT, $timeout);
+        curl_setopt($ch, CURLOPT_URL, "http://check.getipintel.net/check.php?ip=$ip");
+        $response=curl_exec($ch);
+        
+        curl_close($ch);
+        
+        
+        if ($response > $banOnProability) {
+                return true;
+        } else {
+            if ($response < 0 || strcmp($response, "") == 0 ) {
+                //The server returned an error, you might want to do something
+                //like write to a log file or email yourself
+                //This could be true due to an invalid input or you've exceeded
+                //the number of allowed queries. Figure out why this is happening
+                //because you aren't protected by the system anymore
+                //Leaving this section blank is dangerous because you assume
+                //that you're still protected, which is incorrect
+                //and you might think GetIPIntel isn't accurate anymore
+                //which is also incorrect.
+                //failure to implement error handling is bad for the both of us
+            }
+                return false;
+        }
+}
+$ip=$_SERVER['REMOTE_ADDR'];
+if (checkProxy($ip)) {
+    echo "It would apprear you're using a proxy, so please, go fuck yourself! <br />";
+}
+?>
 <div class="container">
     <div class="row">
     <div id="page">
@@ -384,6 +382,7 @@ $(function() {
         </ul>
         <table style="width:100%">
         <td><?php echo $data["custom_left_ad_slot"]; ?>
+        <center><?php echo $antibotlinks->show_info(); ?></center>
         </td>
         </table>
         <br>
@@ -402,7 +401,6 @@ $(function() {
                     <center><p class="alert alert-danger" role="alert">Invalid Captcha!</p></center>
                     <?php endif; ?>
                 </div>
-
                 <!-- Antibot -->
                 <div align="center">
                 <input type="hidden" name="antibotlinks" id="antibotlinks" value="" />
@@ -410,62 +408,17 @@ $(function() {
                 <center><p class="alert alert-danger" role="alert">Invalid AntiBot verification!</p></center>
                 <?php endif; ?>
                 </div>
-            </br>
-                <table style="width:100%">
-                  <tr>
-                    <td><div style=”display:block;”>
-                        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                        <!-- 300 Negro Naranja -->
-                        <ins class="adsbygoogle"
-                             style="display:inline-block;width:300px;height:250px"
-                             data-ad-client="ca-pub-1321388824434022"
-                             data-ad-slot="3467311194"></ins>
-                        <script>
-                        (adsbygoogle = window.adsbygoogle || []).push({});
-                        </script>
-                        </div>
-                        <center class="link" style="display:block;"><?php echo $antibotlinks->show_link(); ?></center>
-                    </td>
-                    <td>
-                        <?php echo $data["captcha"]; ?>
-                        <div class="text-center">
-                        <?php
-                        if (count($data['captcha_info']['available']) > 1) {
-                            foreach ($data['captcha_info']['available'] as $c) {
-                                if ($c == $data['captcha_info']['selected']) {
-                                    echo '<b>' .$c. '</b> ';
-                                } else {
-                                    echo '<a href="?cc='.$c.'">'.$c.'</a> ';
-                                }
-                            }
-                        }
-                        ?>
-                        </div>
-                    </td>
-                    <td>
-                        <center>
-                        <div id="coindesk-widget" data-size="mpu" data-align="center"></div>
-                        <script type="text/javascript" src="//widget.coindesk.com/bpiticker/coindesk-widget.min.js?88e6a4"></script>
-                        </center>
-                    </td>
-                  </tr>
-                  <tr>
-                </table>
-                <!--
                 <div>
-                    <input type="submit" class="btn btn-primary-outline" data-toggle="modal" data-target="#botSystemModal" value="Get reward!">
-                </div>
-                -->
-                <div>
-                    <table align="center" style="width:80%">
+                    <table align="center" style="width:70%">
                     <tr>
                         <td>
+                        <!-- TEXTO 728 X 15 -->
                             <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                            <!-- Texto 728 Fondo negro -->
+                            <!-- 728 x 15 Blanco y Negro -->
                             <ins class="adsbygoogle"
                                  style="display:inline-block;width:728px;height:15px"
                                  data-ad-client="ca-pub-1321388824434022"
-                                 data-ad-slot="6560378394"></ins>
+                                 data-ad-slot="3103724391"></ins>
                             <script>
                             (adsbygoogle = window.adsbygoogle || []).push({});
                             </script>
@@ -477,90 +430,120 @@ $(function() {
                 </div>
                 <br></br>
                 <table style="width:100%">
-                <tr>
-                    <td align="justify" width="50%">
-                        <p class="bown"></p>
-                        <p>What is Bitcoin Faucet?</p>
-                        <p>Faucets are the pages that make 'micro' who come to them from time to time; depending on the Faucet this time can result in a few minutes, hours or even a day. They exist as an incentive to encourage new users of BTC, and generally give very small amounts so that you can gather up to a minimum amount of retirement, and thus achieve spend the money earned our wallet Bitcoin, which is the account where we store our money.</p>
-                        <center><?php echo $antibotlinks->show_info(); ?></center>
-                    </td>
-                    <td width="50%">
-                        <p class="bown"></p>
-                        <div style=”display:block;”>
-                        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                        <!-- 300 Negro Naranja -->
-                        <ins class="adsbygoogle"
-                             style="display:inline-block;width:300px;height:250px"
-                             data-ad-client="ca-pub-1321388824434022"
-                             data-ad-slot="3467311194"></ins>
-                        <script>
-                        (adsbygoogle = window.adsbygoogle || []).push({});
-                        </script>
-                        </div>
-                        <center class="link" style="display:block;"><?php echo $antibotlinks->show_link(); ?></center>
-                        <div class="input-group" align="center">
-                            <span class="input-group-addon text-primary"><i class="fa fa-btc"></i> Address</span>
-                            <input type="text" name="<?php echo $data["address_input_name"]; ?>" class="form-control" style="position: absolute; position: fixed; left: -99999px; top: -99999px; opacity: 0; width: 1px; height: 1px">
-                            <input type="checkbox" name="honeypot" style="position: absolute; position: fixed; left: -99999px; top: -99999px; opacity: 0; width: 1px; height: 1px">
-                            <input type="text" name="<?php echo $data["address_input_name"]; ?>" class="form-control" placeholder="i.e. 1DT5CupfxUn6UJK97ocVnWN2CzQPn8MgrN" value="<?php echo $data["address"]; ?>" autocomplete="off">
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p class="bown"></p>
-                        <div style=”display:block;”>
-                        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                        <!-- 300 Negro Naranja -->
-                        <ins class="adsbygoogle"
-                             style="display:inline-block;width:300px;height:250px"
-                             data-ad-client="ca-pub-1321388824434022"
-                             data-ad-slot="3467311194"></ins>
-                        <script>
-                        (adsbygoogle = window.adsbygoogle || []).push({});
-                        </script>
-                        </div>
-                        <center class="link" style="display:block;"><?php echo $antibotlinks->show_link(); ?></center>
-                    </td>
-                    <td align="justify">
-                        <p class="bown"></p>
-                        <p>How to earn Bitcoins Faucet with?</p>
-                        <p>Win Bitcoin Faucet with pages is very simple, as you only have to enter your purse BitCoin and solve a captcha. Rarely you will ask to make a record but it is very easy to do and wont take more than 20 seconds to do so.</p>
-                        <p>Bitcoin and Forex</p>
-                        <p>The forex market is the foreign exchange market. Forex is short for Foreign Exchange market. It is the world's largest, with a volume of over 4 trillion dollars daily business financial market. To understand what this means turnover, it is what can move the NYSE (the largest in the world) throughout a trading month.</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td align="justify">
-                        <p class="bown"></p>
-                        <center>
-                            <iframe data-aa='110890' src='https://ad.a-ads.com/110890?size=300x250' scrolling='no' style='width:300px; height:250px; border:0px; padding:0;overflow:hidden' allowtransparency='true' frameborder='0'></iframe>
-                        </center>
-                    </td>
-                    <td align="justify">
-                        <p class="bown"></p>
-                        <table align="center">
-                        <tr>
-                            <td>
+                    <tr>
+                        <td align="justify" style="width:50%, height:25%">
+                            <p class="bown"></p>
+                            <p>What are Faucets Bitcoins?</p>
+                            <p>Faucet were created in the beginning of the Bitcoin network to encourage people to use and creating Bitcoin wallets. In the early years there were few people who knew about this criptomonedas, so I decided to create this site to donate a portion of their profits to many users inviting them to join the network. In the course of time, these sites were able to self sustain that are financed by advertising.</p>
+                            <p>How to earn Bitcoins with Faucets?</p>
+                            <p>Earn BitCoin with Faucet pages is very simple, as you only have to enter your purse BitCoin and solve a captcha. Rarely you will ask to make a record but it is very easy to do and wont take more than 20 seconds to do so.</p>
+                        </td>
+                        <td align="justify" style="width:50%">
+                            <div style=”display:block;” align="center">
+                            <!-- Anuncio de 300 x 250px-->
+                            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                            <!-- 300 Blanco y Azul -->
+                            <ins class="adsbygoogle"
+                                 style="display:inline-block;width:300px;height:250px"
+                                 data-ad-client="ca-pub-1321388824434022"
+                                 data-ad-slot="5418062397"></ins>
+                            <script>
+                            (adsbygoogle = window.adsbygoogle || []).push({});
+                            </script>
+                            </div>
+                            <center class="link" style="display:block;"><?php echo $antibotlinks->show_link(); ?></center>
+                            <div class="input-group">
+                                <span class="input-group-addon text-primary"><i class="fa fa-btc"></i> Address</span>
+                                <input type="text" name="<?php echo $data["address_input_name"]; ?>" class="form-control" style="position: absolute; position: fixed; left: -99999px; top: -99999px; opacity: 0; width: 1px; height: 1px">
+                                <input type="checkbox" name="honeypot" style="position: absolute; position: fixed; left: -99999px; top: -99999px; opacity: 0; width: 1px; height: 1px">
+                                <input type="text" name="<?php echo $data["address_input_name"]; ?>" class="form-control" placeholder="i.e. 1DT5CupfxUn6UJK97ocVnWN2CzQPn8MgrN" value="<?php echo $data["address"]; ?>" autocomplete="off">
+                            </div>
+                            <?php echo $data["captcha"]; ?>
+                            <div class="text-center">
+                            <?php
+                            if (count($data['captcha_info']['available']) > 1) {
+                                foreach ($data['captcha_info']['available'] as $c) {
+                                    if ($c == $data['captcha_info']['selected']) {
+                                        echo '<b>' .$c. '</b> ';
+                                    } else {
+                                        echo '<a href="?cc='.$c.'">'.$c.'</a> ';
+                                    }
+                                }
+                            }
+                            ?>
+                            </div>
+                            <div style=”display:block;”>
+                            <!-- Anuncio de 300 x 250px-->
                                 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                                <!-- 468 Text negro naranja -->
+                                <!-- 300 Blanco y Azul -->
                                 <ins class="adsbygoogle"
-                                     style="display:inline-block;width:468px;height:15px"
+                                     style="display:inline-block;width:300px;height:250px"
                                      data-ad-client="ca-pub-1321388824434022"
-                                     data-ad-slot="4944044398"></ins>
+                                     data-ad-slot="5418062397"></ins>
                                 <script>
                                 (adsbygoogle = window.adsbygoogle || []).push({});
                                 </script>
-                            </td>
-                        </tr>
-                        <tr>
-                            <p>Insurance is a contract by which one person (the insurer) agrees, by charging a premium and if the event occurs whose risk is hedged to compensate within the agreed limits, the damage produced to the insured or meet capital, income or other agreed services. They define the first article of Law 50/1980, of 8 October, on Insurance Contracts (BOE no. 250, of October 17, 1980), which is valid in Spain.</p>
-                            <p>This contract involved an insurer or insurance company, which is who sells insurance and who covers the risk and the insured or policyholder, is the person buying the insurance policy and pay the premium. Sometimes it's not the same person, for one can be who has purchased the policy, which is the policyholder and be different who is guaranteed or insured, as for example in collective accident insurance recruited by enterprises on behalf of their workers.</p>
-                        </tr>
-                        <center class="link" style="display:block;"><?php echo $antibotlinks->show_link(); ?></center>
-                        </table>
-                    </td>
-                </tr>
+                            </div>
+                            <center class="link" style="display:block;"><?php echo $antibotlinks->show_link(); ?></center>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="bown"></p>
+                            <div style=”display:block;”>
+                            <!-- Anuncio de 300 x 600px-->
+                            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                            <!-- 300 x 600 Blanco y Azul -->
+                            <ins class="adsbygoogle"
+                                 style="display:inline-block;width:300px;height:600px"
+                                 data-ad-client="ca-pub-1321388824434022"
+                                 data-ad-slot="5278461591"></ins>
+                            <script>
+                            (adsbygoogle = window.adsbygoogle || []).push({});
+                            </script>
+                            </div>
+                            <center class="link" style="display:block;"><?php echo $antibotlinks->show_link(); ?></center>
+                        </td>
+                        <td align="justify">
+                            <p class="bown"></p>
+                            <p>The Bitcoin is an anonymous currency ...</p>
+                            <p>This is a virtual "currency" that can be used to exchange goods and services in places where accepted. Unlike a ticket or actual currency, Bitcoin has no serial number or any other mechanism to track a buyer or seller.</p>
+                            <p>The Bitcoin is like Forex</p>
+                            <p>In Forex, currencies are always traded in pairs, ie purchases over and sell another simultaneously, for example EURUSD (Euro vs. US dollar), the goal is to buy one that increases its value, rather than sold and make a profit within a specified period.</p>
+                            <p>Is it true that you can make money with forex ?. This is the big question that many people who want to start in this business are made.</p>
+                            <p>Well, honestly I must say that if this is possible, since forex is feasible and as real as any other business. Of course, it is also a business that requires a lot of preparation and discipline because the risk is a little higher than in other businesses.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="justify">
+                            <p class="bown"></p>
+                            <center>
+                                <iframe data-aa='110890' src='https://ad.a-ads.com/110890?size=300x250' scrolling='no' style='width:300px; height:250px; border:0px; padding:0;overflow:hidden' allowtransparency='true' frameborder='0'></iframe>
+                            </center>
+                        </td>
+                        <td align="justify">
+                            <p class="bown"></p>
+                            <table align="center">
+                            <tr>
+                                <td>
+                                    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                                    <!-- 468 x 15 Text Blanco y negro -->
+                                    <ins class="adsbygoogle"
+                                         style="display:inline-block;width:468px;height:15px"
+                                         data-ad-client="ca-pub-1321388824434022"
+                                         data-ad-slot="2545321193"></ins>
+                                    <script>
+                                    (adsbygoogle = window.adsbygoogle || []).push({});
+                                    </script>
+                                </td>
+                            </tr>
+                            <tr>
+                                <p>Bitcoin uses...</p>
+                                <p>Apart from their ability to buy goods and services, one of its popular applications use features for a number of investment vehicles. This includes Forex trading Bitcoins, and binary options platforms. In addition, the brands offer services that revolve around Bitcoin as a currency.</p>
+                            </tr>
+                            <center class="link" style="display:block;"><?php echo $antibotlinks->show_link(); ?></center>
+                            </table>
+                        </td>
+                    </tr>
                 </table>
             </form>
         <?php break; case "visit_later": ?>
@@ -578,69 +561,89 @@ $(function() {
                 </tr>
             </table>
             <br></br>
-                <table style="width:100%">
-                <tr>
-                    <td align="justify">
-                        <p class="bown"></p>
-                        <p>What is Bitcoin Faucet?</p>
-                        <p>Faucets are the pages that make 'micro' who come to them from time to time; depending on the Faucet this time can result in a few minutes, hours or even a day. They exist as an incentive to encourage new users of BTC, and generally give very small amounts so that you can gather up to a minimum amount of retirement, and thus achieve spend the money earned our wallet Bitcoin, which is the account where we store our money.</p>
-                    </td>
-                    <td>
-                        <p class="bown"></p>
-                        
-                        <center>
-                        <script type="text/javascript">
-                            google_ad_client = "ca-pub-1321388824434022";
-                            google_ad_slot = "3467311194";
-                            google_ad_width = 300;
-                            google_ad_height = 250;
-                        </script>
-                        <!-- 300 Negro Naranja -->
-                        <script type="text/javascript"
-                        src="//pagead2.googlesyndication.com/pagead/show_ads.js">
-                        </script>
-                        </center>
-                        
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p class="bown"></p>
-                        <center>
-                            <iframe data-aa='110890' src='https://ad.a-ads.com/110890?size=300x250' scrolling='no' style='width:300px; height:250px; border:0px; padding:0;overflow:hidden' allowtransparency='true' frameborder='0'></iframe>
-                        </center>
-                    </td>
-                    <td align="justify">
-                        <p class="bown"></p>
-                        <p>How to earn Bitcoins Faucet with?</p>
-                        <p>Win Bitcoin Faucet with pages is very simple, as you only have to enter your purse BitCoin and solve a captcha. Rarely you will ask to make a record but it is very easy to do and wont take more than 20 seconds to do so.</p>
-                        <p>Bitcoin and Forex</p>
-                        <p>The forex market is the foreign exchange market. Forex is short for Foreign Exchange market. It is the world's largest, with a volume of over 4 trillion dollars daily business financial market. To understand what this means turnover, it is what can move the NYSE (the largest in the world) throughout a trading month.</p>
+            <table style="width:100%">
+                    <tr>
+                        <td align="justify" style="width:50%, height:25%">
+                            <p class="bown"></p>
+                            <p>What are Faucets Bitcoins?</p>
+                            <p>Faucet were created in the beginning of the Bitcoin network to encourage people to use and creating Bitcoin wallets. In the early years there were few people who knew about this criptomonedas, so I decided to create this site to donate a portion of their profits to many users inviting them to join the network. In the course of time, these sites were able to self sustain that are financed by advertising.</p>
+                            <p>How to earn Bitcoins with Faucets?</p>
+                            <p>Earn BitCoin with Faucet pages is very simple, as you only have to enter your purse BitCoin and solve a captcha. Rarely you will ask to make a record but it is very easy to do and wont take more than 20 seconds to do so.</p>
                         </td>
-                </tr>
-                <tr>
-                    <td align="justify">
-                        <p class="bown"></p>
-                        <center>
-                            <iframe data-aa='110890' src='https://ad.a-ads.com/110890?size=300x250' scrolling='no' style='width:300px; height:250px; border:0px; padding:0;overflow:hidden' allowtransparency='true' frameborder='0'></iframe>
-                        </center>
-                    </td>
-                    <td align="justify">
-                        <p class="bown"></p>
-                        
-                        <center><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                        <ins class="adsbygoogle"
-                             style="display:inline-block;width:200px;height:90px"
-                             data-ad-client="ca-pub-1321388824434022"
-                             data-ad-slot="8286607193"></ins>
-                        <script>
-                        (adsbygoogle = window.adsbygoogle || []).push({});
-                        </script></center>
-                        <p>Insurance is a contract by which one person (the insurer) agrees, by charging a premium and if the event occurs whose risk is hedged to compensate within the agreed limits, the damage produced to the insured or meet capital, income or other agreed services. They define the first article of Law 50/1980, of 8 October, on Insurance Contracts (BOE no. 250, of October 17, 1980), which is valid in Spain.</p>
-                        <p>This contract involved an insurer or insurance company, which is who sells insurance and who covers the risk and the insured or policyholder, is the person buying the insurance policy and pay the premium. Sometimes it's not the same person, for one can be who has purchased the policy, which is the policyholder and be different who is guaranteed or insured, as for example in collective accident insurance recruited by enterprises on behalf of their workers.</p>
-                    </td>
-                </tr>
-                </table>
+                        <td align="justify" style="width:50%">
+                            <p class="bown"></p>
+                            <div style=”display:block;” align="center">
+                            <!-- Anuncio de 300 x 250px-->
+                            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                            <!-- 300 Blanco y Azul -->
+                            <ins class="adsbygoogle"
+                                 style="display:inline-block;width:300px;height:250px"
+                                 data-ad-client="ca-pub-1321388824434022"
+                                 data-ad-slot="5418062397"></ins>
+                            <script>
+                            (adsbygoogle = window.adsbygoogle || []).push({});
+                            </script>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="bown"></p>
+                            <div align="center">
+                            <!-- Anuncio de 300 x 600px-->
+                            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                            <!-- 300 x 600 Blanco y Azul -->
+                            <ins class="adsbygoogle"
+                                 style="display:inline-block;width:300px;height:600px"
+                                 data-ad-client="ca-pub-1321388824434022"
+                                 data-ad-slot="5278461591"></ins>
+                            <script>
+                            (adsbygoogle = window.adsbygoogle || []).push({});
+                            </script>
+                            </div>
+                        </td>
+                        <td align="justify">
+                            <p class="bown"></p>
+                            <p>The Bitcoin is an anonymous currency ...</p>
+                            <p>This is a virtual "currency" that can be used to exchange goods and services in places where accepted. Unlike a ticket or actual currency, Bitcoin has no serial number or any other mechanism to track a buyer or seller.</p>
+                            <p>The Bitcoin is like Forex</p>
+                            <p>In Forex, currencies are always traded in pairs, ie purchases over and sell another simultaneously, for example EURUSD (Euro vs. US dollar), the goal is to buy one that increases its value, rather than sold and make a profit within a specified period.</p>
+                            <p>Is it true that you can make money with forex ?. This is the big question that many people who want to start in this business are made.</p>
+                            <p>Well, honestly I must say that if this is possible, since forex is feasible and as real as any other business. Of course, it is also a business that requires a lot of preparation and discipline because the risk is a little higher than in other businesses.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="justify">
+                            <p class="bown"></p>
+                            <center>
+                                <iframe data-aa='110890' src='https://ad.a-ads.com/110890?size=300x250' scrolling='no' style='width:300px; height:250px; border:0px; padding:0;overflow:hidden' allowtransparency='true' frameborder='0'></iframe>
+                            </center>
+                        </td>
+                        <td align="justify">
+                            <p class="bown"></p>
+                            <table align="center">
+                            <tr>
+                                <td>
+                                    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                                    <!-- 468 x 15 Text Blanco y negro -->
+                                    <ins class="adsbygoogle"
+                                         style="display:inline-block;width:468px;height:15px"
+                                         data-ad-client="ca-pub-1321388824434022"
+                                         data-ad-slot="2545321193"></ins>
+                                    <script>
+                                    (adsbygoogle = window.adsbygoogle || []).push({});
+                                    </script>
+                                </td>
+                            </tr>
+                            <tr>
+                                <p>Bitcoin uses...</p>
+                                <p>Apart from their ability to buy goods and services, one of its popular applications use features for a number of investment vehicles. This includes Forex trading Bitcoins, and binary options platforms. In addition, the brands offer services that revolve around Bitcoin as a currency.</p>
+                            </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>    
+            
 
         <?php break; case "user_page": ?>
         <?php echo $data["user_page"]["html"]; ?>
