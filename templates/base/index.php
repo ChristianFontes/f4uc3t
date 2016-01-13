@@ -369,7 +369,6 @@ $(function() {
   });
 });
 </script>
-<?php echo $data["custom_left_ad_slot"]; ?>
 </head>
 <body oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
 <div class="container">
