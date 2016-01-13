@@ -490,47 +490,13 @@ $(function() {
             </form>
         <?php break; case "visit_later": ?>
             <table style="width:100%">
-                <tr>
-                    <td>
-                        <?php echo $data["custom_right_ad_slot"]; ?>
-                    </td>
-                    <td>
-                        <center><p class="alert alert-danger" role="alert">You have to wait <?php echo $data["time_left"]; ?></p></center>
-                    </td>
-                    <td>
-                        <?php echo $data["custom_right_ad_slot"]; ?>
-                    </td>
-                </tr>
-            </table>
-            <br></br>
-            <table style="width:100%">
                     <tr>
-                        <td align="justify" style="width:50%, height:25%">
-                            <p class="bown"></p>
+                        <td align="justify" style="width:50%">
                             <p>What are Faucets Bitcoins?</p>
                             <p>Faucet were created in the beginning of the Bitcoin network to encourage people to use and creating Bitcoin wallets. In the early years there were few people who knew about this criptomonedas, so I decided to create this site to donate a portion of their profits to many users inviting them to join the network. In the course of time, these sites were able to self sustain that are financed by advertising.</p>
                             <p>How to earn Bitcoins with Faucets?</p>
                             <p>Earn BitCoin with Faucet pages is very simple, as you only have to enter your purse BitCoin and solve a captcha. Rarely you will ask to make a record but it is very easy to do and wont take more than 20 seconds to do so.</p>
-                        </td>
-                        <td align="justify" style="width:50%">
-                            <p class="bown"></p>
-                            <div style=”display:block;” align="center">
-                            <script async src=" http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                            <!-- 300x250 -->
-                            <ins class="adsbygoogle"
-                                 style="display:inline-block;width:300px;height:250px"
-                                 data-ad-client="ca-pub-3423242844206330"
-                                 data-ad-slot="9681192802"></ins>
-                            <script>
-                            (adsbygoogle = window.adsbygoogle || []).push({});
-                            </script>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p class="bown"></p>
-                            <div align="center">
+                            <div style="display:block;" align="center">
                             <script async src=" http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                                 <!-- 300x250 -->
                                 <ins class="adsbygoogle"
@@ -539,39 +505,42 @@ $(function() {
                                      data-ad-slot="9681192802"></ins>
                                 <script>
                                 (adsbygoogle = window.adsbygoogle || []).push({});
-                                </script>
+                            </script>
                             </div>
-                        </td>
-                        <td align="justify">
-                            <p class="bown"></p>
                             <p>The Bitcoin is an anonymous currency ...</p>
                             <p>This is a virtual "currency" that can be used to exchange goods and services in places where accepted. Unlike a ticket or actual currency, Bitcoin has no serial number or any other mechanism to track a buyer or seller.</p>
                             <p>The Bitcoin is like Forex</p>
                             <p>In Forex, currencies are always traded in pairs, ie purchases over and sell another simultaneously, for example EURUSD (Euro vs. US dollar), the goal is to buy one that increases its value, rather than sold and make a profit within a specified period.</p>
-                            </td>
-                    </tr>
-                    <tr>
-                        <td align="justify">
-                            <p class="bown"></p>
-                            <center>
-                                <iframe data-aa='110890' src='https://ad.a-ads.com/110890?size=300x250' scrolling='no' style='width:300px; height:250px; border:0px; padding:0;overflow:hidden' allowtransparency='true' frameborder='0'></iframe>
-                            </center>
+                            <p>Is it true that you can make money with forex ?. This is the big question that many people who want to start in this business are made.</p>
+                            <p>Well, honestly I must say that if this is possible, since forex is feasible and as real as any other business. Of course, it is also a business that requires a lot of preparation and discipline because the risk is a little higher than in other businesses.</p>
                         </td>
-                        <td align="justify">
-                            <p class="bown"></p>
-                            <table align="center">
-                            <tr>
-                                <p>Bitcoin uses...</p>
-                                <p>Apart from their ability to buy goods and services, one of its popular applications use features for a number of investment vehicles. This includes Forex trading Bitcoins, and binary options platforms. In addition, the brands offer services that revolve around Bitcoin as a currency.</p>
-                                <p>Is it true that you can make money with forex ?. This is the big question that many people who want to start in this business are made.</p>
-                                <p>Well, honestly I must say that if this is possible, since forex is feasible and as real as any other business. Of course, it is also a business that requires a lot of preparation and discipline because the risk is a little higher than in other businesses.</p>
-                            </tr>
-                            </table>
-                        </td>
+                        <td align="justify" style="width:50%">
+                            <div style="display:block;" align="center">
+                            <script async src=" http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                                <!-- 300x250 -->
+                                <ins class="adsbygoogle"
+                                     style="display:inline-block;width:300px;height:250px"
+                                     data-ad-client="ca-pub-3423242844206330"
+                                     data-ad-slot="9681192802"></ins>
+                                <script>
+                                (adsbygoogle = window.adsbygoogle || []).push({});
+                            </script>
+                            </div>
+                            <p>Bitcoin uses...</p>
+                            <p>Apart from their ability to buy goods and services, one of its popular applications use features for a number of investment vehicles. This includes Forex trading Bitcoins, and binary options platforms. In addition, the brands offer services that revolve around Bitcoin as a currency.</p>
+                            <div style="display:block;" align="center">
+                            <script async src=" http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                                <!-- 300x250 -->
+                                <ins class="adsbygoogle"
+                                     style="display:inline-block;width:300px;height:250px"
+                                     data-ad-client="ca-pub-3423242844206330"
+                                     data-ad-slot="9681192802"></ins>
+                                <script>
+                                (adsbygoogle = window.adsbygoogle || []).push({});
+                            </script>
+                            </div>
                     </tr>
-                </table>    
-            
-
+                </table>
         <?php break; case "user_page": ?>
         <?php echo $data["user_page"]["html"]; ?>
         <?php break; endswitch; ?>
