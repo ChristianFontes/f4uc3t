@@ -411,16 +411,7 @@ if (checkProxy($ip)) {
                     <table align="center" style="width:70%">
                     <tr>
                         <td>
-                        <!-- TEXTO 728 X 15 -->
-                            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                            <!-- 728 x 15 Blanco y Negro -->
-                            <ins class="adsbygoogle"
-                                 style="display:inline-block;width:728px;height:15px"
-                                 data-ad-client="ca-pub-1321388824434022"
-                                 data-ad-slot="3103724391"></ins>
-                            <script>
-                            (adsbygoogle = window.adsbygoogle || []).push({});
-                            </script>
+                        
                         </td>
                         <td>
                             <p align="left" class="link" style="display:block;"><?php echo $antibotlinks->show_link(); ?></p>
@@ -435,29 +426,19 @@ if (checkProxy($ip)) {
                             <p>How to earn Bitcoins with Faucets?</p>
                             <p>Earn BitCoin with Faucet pages is very simple, as you only have to enter your purse BitCoin and solve a captcha. Rarely you will ask to make a record but it is very easy to do and wont take more than 20 seconds to do so.</p>
                             <div style="display:block;" align="center">
-                            <!-- Anuncio de 300 x 250px-->
-                                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                                <!-- 300 Blanco y Azul -->
+                            <script async src=" http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                                <!-- 300x250 -->
                                 <ins class="adsbygoogle"
                                      style="display:inline-block;width:300px;height:250px"
-                                     data-ad-client="ca-pub-1321388824434022"
-                                     data-ad-slot="5418062397"></ins>
+                                     data-ad-client="ca-pub-3423242844206330"
+                                     data-ad-slot="9681192802"></ins>
                                 <script>
                                 (adsbygoogle = window.adsbygoogle || []).push({});
-                                </script>
+                            </script>
                             </div>
                             <center class="link" style="display:block;"><?php echo $antibotlinks->show_link(); ?></center>
                             <p>The Bitcoin is an anonymous currency ...</p>
                             <p>This is a virtual "currency" that can be used to exchange goods and services in places where accepted. Unlike a ticket or actual currency, Bitcoin has no serial number or any other mechanism to track a buyer or seller.</p>
-                            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                                    <!-- 468 x 15 Text Blanco y negro -->
-                                    <ins class="adsbygoogle"
-                                         style="display:inline-block;width:468px;height:15px"
-                                         data-ad-client="ca-pub-1321388824434022"
-                                         data-ad-slot="2545321193"></ins>
-                                    <script>
-                                    (adsbygoogle = window.adsbygoogle || []).push({});
-                            </script>
                             <p>The Bitcoin is like Forex</p>
                             <p>In Forex, currencies are always traded in pairs, ie purchases over and sell another simultaneously, for example EURUSD (Euro vs. US dollar), the goal is to buy one that increases its value, rather than sold and make a profit within a specified period.</p>
                             <p>Is it true that you can make money with forex ?. This is the big question that many people who want to start in this business are made.</p>
@@ -465,16 +446,16 @@ if (checkProxy($ip)) {
                         </td>
                         <td align="justify" style="width:50%">
                             <div style="display:block;" align="center">
-                            <!-- Anuncio de 300 x 250px-->
-                            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                            <!-- 300 Blanco y Azul -->
-                            <ins class="adsbygoogle"
-                                 style="display:inline-block;width:300px;height:250px"
-                                 data-ad-client="ca-pub-1321388824434022"
-                                 data-ad-slot="5418062397"></ins>
-                            <script>
-                            (adsbygoogle = window.adsbygoogle || []).push({});
+                            <script async src=" http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                                <!-- 300x250 -->
+                                <ins class="adsbygoogle"
+                                     style="display:inline-block;width:300px;height:250px"
+                                     data-ad-client="ca-pub-3423242844206330"
+                                     data-ad-slot="9681192802"></ins>
+                                <script>
+                                (adsbygoogle = window.adsbygoogle || []).push({});
                             </script>
+
                             </div>
                             <center class="link" style="display:block;"><?php echo $antibotlinks->show_link(); ?></center>
                             <div class="input-group" align="center">
@@ -501,16 +482,15 @@ if (checkProxy($ip)) {
                             </div>
                             <center class="link" style="display:block;"><?php echo $antibotlinks->show_link(); ?></center>
                             <div style="display:block;" align="center">
-                            <!-- Anuncio de 300 x 250px-->
-                                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                                <!-- 300 Blanco y Azul -->
+                            <script async src=" http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                                <!-- 300x250 -->
                                 <ins class="adsbygoogle"
                                      style="display:inline-block;width:300px;height:250px"
-                                     data-ad-client="ca-pub-1321388824434022"
-                                     data-ad-slot="5418062397"></ins>
+                                     data-ad-client="ca-pub-3423242844206330"
+                                     data-ad-slot="9681192802"></ins>
                                 <script>
                                 (adsbygoogle = window.adsbygoogle || []).push({});
-                                </script>
+                            </script>
                             </div>
                             <center class="link" style="display:block;"><?php echo $antibotlinks->show_link(); ?></center>
                             <p>Bitcoin uses...</p>
@@ -545,13 +525,12 @@ if (checkProxy($ip)) {
                         <td align="justify" style="width:50%">
                             <p class="bown"></p>
                             <div style=”display:block;” align="center">
-                            <!-- Anuncio de 300 x 250px-->
-                            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                            <!-- 300 Blanco y Azul -->
+                            <script async src=" http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                            <!-- 300x250 -->
                             <ins class="adsbygoogle"
                                  style="display:inline-block;width:300px;height:250px"
-                                 data-ad-client="ca-pub-1321388824434022"
-                                 data-ad-slot="5418062397"></ins>
+                                 data-ad-client="ca-pub-3423242844206330"
+                                 data-ad-slot="9681192802"></ins>
                             <script>
                             (adsbygoogle = window.adsbygoogle || []).push({});
                             </script>
@@ -562,16 +541,15 @@ if (checkProxy($ip)) {
                         <td>
                             <p class="bown"></p>
                             <div align="center">
-                            <!-- Anuncio de 300 x 600px-->
-                            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                            <!-- 300 x 600 Blanco y Azul -->
-                            <ins class="adsbygoogle"
-                                 style="display:inline-block;width:300px;height:600px"
-                                 data-ad-client="ca-pub-1321388824434022"
-                                 data-ad-slot="5278461591"></ins>
-                            <script>
-                            (adsbygoogle = window.adsbygoogle || []).push({});
-                            </script>
+                            <script async src=" http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                                <!-- 300x250 -->
+                                <ins class="adsbygoogle"
+                                     style="display:inline-block;width:300px;height:250px"
+                                     data-ad-client="ca-pub-3423242844206330"
+                                     data-ad-slot="9681192802"></ins>
+                                <script>
+                                (adsbygoogle = window.adsbygoogle || []).push({});
+                                </script>
                             </div>
                         </td>
                         <td align="justify">
@@ -596,15 +574,7 @@ if (checkProxy($ip)) {
                             <table align="center">
                             <tr>
                                 <td>
-                                    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                                    <!-- 468 x 15 Text Blanco y negro -->
-                                    <ins class="adsbygoogle"
-                                         style="display:inline-block;width:468px;height:15px"
-                                         data-ad-client="ca-pub-1321388824434022"
-                                         data-ad-slot="2545321193"></ins>
-                                    <script>
-                                    (adsbygoogle = window.adsbygoogle || []).push({});
-                                    </script>
+                                    
                                 </td>
                             </tr>
                             <tr>
