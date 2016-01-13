@@ -510,11 +510,7 @@ $(function() {
                             </div>
                             <p>The Bitcoin is an anonymous currency ...</p>
                             <p>This is a virtual "currency" that can be used to exchange goods and services in places where accepted. Unlike a ticket or actual currency, Bitcoin has no serial number or any other mechanism to track a buyer or seller.</p>
-                            <p>The Bitcoin is like Forex</p>
-                            <p>In Forex, currencies are always traded in pairs, ie purchases over and sell another simultaneously, for example EURUSD (Euro vs. US dollar), the goal is to buy one that increases its value, rather than sold and make a profit within a specified period.</p>
-                            <p>Is it true that you can make money with forex ?. This is the big question that many people who want to start in this business are made.</p>
-                            <p>Well, honestly I must say that if this is possible, since forex is feasible and as real as any other business. Of course, it is also a business that requires a lot of preparation and discipline because the risk is a little higher than in other businesses.</p>
-                        </td>
+                            </td>
                         <td align="justify" style="width:50%">
                             <div style="display:block;" align="center">
                             <script async src=" http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -540,6 +536,10 @@ $(function() {
                                 (adsbygoogle = window.adsbygoogle || []).push({});
                             </script>
                             </div>
+                            <p>The Bitcoin is like Forex</p>
+                            <p>In Forex, currencies are always traded in pairs, ie purchases over and sell another simultaneously, for example EURUSD (Euro vs. US dollar), the goal is to buy one that increases its value, rather than sold and make a profit within a specified period.</p>
+                            <p>Is it true that you can make money with forex ?. This is the big question that many people who want to start in this business are made.</p>
+                            <p>Well, honestly I must say that if this is possible, since forex is feasible and as real as any other business. Of course, it is also a business that requires a lot of preparation and discipline because the risk is a little higher than in other businesses.</p>
                     </tr>
                 </table>
         <?php break; case "user_page": ?>
