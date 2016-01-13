@@ -382,7 +382,6 @@ $(function() {
         </ul>
         <table style="width:100%">
         <td><?php echo $data["custom_left_ad_slot"]; ?>
-        <center><?php echo $antibotlinks->show_info(); ?></center>
         </td>
         </table>
     </div>
@@ -396,6 +395,7 @@ $(function() {
               break; case "eligible": ?>
             <form method="POST">
                 <div>
+                    <center><?php echo $antibotlinks->show_info(); ?></center>
                     <?php if(!$data["captcha_valid"]): ?>
                     <center><p class="alert alert-danger" role="alert">Invalid Captcha!</p></center>
                     <?php endif; ?>
@@ -490,6 +490,7 @@ $(function() {
             </form>
         <?php break; case "visit_later": ?>
             <table style="width:100%">
+            <center><p class="alert alert-danger" role="alert">You have to wait <?php echo $data["time_left"]; ?></p></center>
                     <tr>
                         <td align="justify" style="width:50%">
                             <p>What are Faucets Bitcoins?</p>
