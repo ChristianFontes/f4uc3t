@@ -558,9 +558,7 @@ if (checkProxy($ip)) {
                             <p>This is a virtual "currency" that can be used to exchange goods and services in places where accepted. Unlike a ticket or actual currency, Bitcoin has no serial number or any other mechanism to track a buyer or seller.</p>
                             <p>The Bitcoin is like Forex</p>
                             <p>In Forex, currencies are always traded in pairs, ie purchases over and sell another simultaneously, for example EURUSD (Euro vs. US dollar), the goal is to buy one that increases its value, rather than sold and make a profit within a specified period.</p>
-                            <p>Is it true that you can make money with forex ?. This is the big question that many people who want to start in this business are made.</p>
-                            <p>Well, honestly I must say that if this is possible, since forex is feasible and as real as any other business. Of course, it is also a business that requires a lot of preparation and discipline because the risk is a little higher than in other businesses.</p>
-                        </td>
+                            </td>
                     </tr>
                     <tr>
                         <td align="justify">
@@ -573,13 +571,10 @@ if (checkProxy($ip)) {
                             <p class="bown"></p>
                             <table align="center">
                             <tr>
-                                <td>
-                                    
-                                </td>
-                            </tr>
-                            <tr>
                                 <p>Bitcoin uses...</p>
                                 <p>Apart from their ability to buy goods and services, one of its popular applications use features for a number of investment vehicles. This includes Forex trading Bitcoins, and binary options platforms. In addition, the brands offer services that revolve around Bitcoin as a currency.</p>
+                                <p>Is it true that you can make money with forex ?. This is the big question that many people who want to start in this business are made.</p>
+                                <p>Well, honestly I must say that if this is possible, since forex is feasible and as real as any other business. Of course, it is also a business that requires a lot of preparation and discipline because the risk is a little higher than in other businesses.</p>
                             </tr>
                             </table>
                         </td>
